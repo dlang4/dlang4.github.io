@@ -1,2 +1,23 @@
+/*Color Palette */
 
+.color-1{
+    background: red;
+}
+.color-2{
+    background: white;
+}
+.color-3{
+    background: blue;
+}
+.color-4{
+    background: black;
+}
 
+/*Texture and Pattern*/
+
+.pattern-1{
+    background: url("http://bgfons.com/upload/flag_texture610.jpg") no-repeat center;
+    background-size: contain;
+}
+.pattern-2{
+    
