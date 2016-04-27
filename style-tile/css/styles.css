@@ -51,4 +51,34 @@
 
 nav li{
     list-style: none;
-    display: inline-block;
+    float: left;
+}
+
+nav a:link{
+    background: red;
+    padding: 20px 20px 5px 20px;
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+    border-bottom: 2px solid blue;
+    border-radius: 5px;
+}
+
+nav a:visited{
+    color: aqua;
+}
+
+nav a:focus{
+    border: 30px solid red;
+}
+
+nav a:hover{
+    background: blue;
+    color: red;
+    margin-top: 20px
+}
+
+nav a:active{
+    background: black;
+}
+
+/*ORDER: LoVF HAte*/
