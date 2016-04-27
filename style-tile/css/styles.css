@@ -20,4 +20,35 @@
     background-size: contain;
 }
 .pattern-2{
-    
+    background: url("/img/starbucks.jpg");
+    background-size: contain;
+}
+.pattern-3{
+    background: url("http://cdn.history.com/sites/2/2013/04/larry-the-cable-guy-bio-E.jpeg") center;
+    background-size: cover;
+}
+
+/*Images*/
+.imagery-1 img{
+    box-shadow: -10px -10px 20px red;
+}
+
+/*Icons*/
+.icon-1{
+    border: none;
+}
+
+.icon-1 img{
+    background-size: contain;
+}
+
+.icon-2 {
+    background: url("/img/contact.png") center;
+    background-size: contain;
+}
+
+/*Navigation*/
+
+nav li{
+    list-style: none;
+    display: inline-block;
