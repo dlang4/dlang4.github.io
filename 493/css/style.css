@@ -1,0 +1,21 @@
+main{
+  width: 40%;
+  margin: 0 auto;
+  background: #C7F1FF;
+}
+
+header{
+  text-align: center;
+}
+
+article{
+  text-align: justify;
+}
+
+#contact{
+  text-align: center;
+}
+
+footer{
+  text-align: right;
+}
