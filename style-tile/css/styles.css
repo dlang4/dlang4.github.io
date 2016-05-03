@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
 body{
-    background: url("/style-tile/img/hexellence.png");
+    background: url("/style-tile/img/hexcellence.png");
     font-family: 'Roboto', sans-serif;
 }
 
@@ -10,6 +10,11 @@ body{
 }
 
 /*Color Palette */
+.colors{
+    background: white;
+    text-align: center;
+}
+
 
 .color-1{
     background: white;
@@ -28,6 +33,11 @@ body{
 }
 
 /*Texture and Pattern*/
+.patterns{
+    background: white;
+    text-align: center;
+}
+
 
 .pattern-1{
     background: url("http://placekitten.com/300/300") no-repeat center;
@@ -43,13 +53,28 @@ body{
 }
 
 /*Images*/
+.imagery{
+    background: white;
+    text-align: center;
+}
+
 .imagery-1 img{
     box-shadow: -10px -10px 20px red;
 }
 
 /*Icons*/
 
+.icons{
+    background: white;
+    text-align: center;
+}
+
 /*Navigation*/
+.navigation{
+    background: white;
+    text-align: center;
+}
+
 
 nav li{
     list-style: none;
@@ -84,3 +109,8 @@ nav a:active{
 }
 
 /*ORDER: LoVF HAte*/
+
+.typography{
+    background: white;
+    text-align: center;
+}
