@@ -1,18 +1,24 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300);
 
 body{
-    background: url("/style-tile/img/hexcellence.png");
-    font-family: 'Roboto', sans-serif;
+    background: #BBB9A4;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
 }
 
 .info{
-    text-align: center;
+    background: #86663F;
+    position: static;
+    margin-top: 120px;
+    font-size: 1.5em;
+    color: #ADE8DC;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 /*Color Palette */
 .colors{
     background: white;
-    text-align: center;
 }
 
 
@@ -35,82 +41,94 @@ body{
 /*Texture and Pattern*/
 .patterns{
     background: white;
-    text-align: center;
 }
 
 
 .pattern-1{
-    background: url("http://placekitten.com/300/300") no-repeat center;
+    background: url("http://placebeyonce.com/300-300") no-repeat center;
     background-size: contain;
 }
 .pattern-2{
-    background: url("http://placekitten.com/300/300");
+    background: url("http://placekitten.com/300/400");
     background-size: contain;
 }
 .pattern-3{
-    background: url("http://placekitten.com/300/300") center;
+    background: url("http://placehold.it/300x300") center;
     background-size: cover;
 }
 
 /*Images*/
 .imagery{
     background: white;
-    text-align: center;
 }
 
 .imagery-1 img{
-    box-shadow: -10px -10px 20px red;
+/*    box-shadow: -10px -10px 20px red;*/
 }
 
 /*Icons*/
 
 .icons{
     background: white;
-    text-align: center;
 }
 
 /*Navigation*/
-.navigation{
-    background: white;
-    text-align: center;
+.primary-nav{
+    position: fixed;
+    background: black;
+      width: 100%;
+  margin: 0;
+  left: 0;
+  top: 0;
+  text-align: left;
+    color: #ADE8DC;
+    padding-left: 30px;
 }
-
 
 nav li{
     list-style: none;
-    float: left;
+     float: right;
+    padding-right: 50px;
 }
 
 nav a:link{
-    background: red;
-    padding: 20px 20px 5px 20px;
-    margin: 0 10px 0 10px;
+    background: #86663F;
+    padding: 5px 20px 5px 20px;
+    margin: 0 20px 0 20px;
     text-decoration: none;
-    border-bottom: 2px solid blue;
     border-radius: 5px;
+    color: #ADE8DC; /*doesn't work because no links?*/
 }
 
 nav a:visited{
-    color: aqua;
+    color: #ADE8DC; /*CHANGE when links are updated?*/
 }
 
 nav a:focus{
-    border: 30px solid red;
+    background: #BBB9A4;
 }
 
 nav a:hover{
-    background: blue;
-    color: red;
+    background: #ADE8DC;
+    color: #86663F;
     margin-top: 20px
 }
 
 nav a:active{
-    background: black;
 }
 
 /*ORDER: LoVF HAte*/
-
+/*Typography*/
 .typography{
     background: white;
     text-align: center;
+}
+
+.typography a:link{
+    ;
+    color: #ADE8DC;
+}
+
+typography a:visited{
+    color: #ADE8DC; /*Neither of these are working?*/
 }
