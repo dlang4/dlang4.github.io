@@ -45,15 +45,15 @@ body{
 
 
 .pattern-1{
-    background: url("http://placebeyonce.com/300-300") no-repeat center;
-    background-size: contain;
+    background: url("https://qph.is.quoracdn.net/main-qimg-eaf917691c45339a9a1cd8ff6c9a54a5?convert_to_webp=true") no-repeat center;
+    background-size: cover;
 }
 .pattern-2{
-    background: url("http://placekitten.com/300/400");
-    background-size: contain;
+    background: url("/img/dark_honeycomb.png") no-repeat center;
+    background-size: ;
 }
 .pattern-3{
-    background: url("http://placehold.it/300x300") center;
+    background: url("http://img07.deviantart.net/9a00/i/2010/032/2/c/rain_texture_by_fear_fixation.jpg") center no-repeat;
     background-size: cover;
 }
 
@@ -63,13 +63,35 @@ body{
 }
 
 .imagery-1 img{
-/*    box-shadow: -10px -10px 20px red;*/
+    width: 300px;
+/*    box-shadow: -10px -10px 20px red*/
+}
+
+.imagery-2 img{
+    width: 300px;
+}
+
+.imagery-3 img{
+    width: 300px;
 }
 
 /*Icons*/
 
 .icons{
     background: white;
+}
+
+.icon-1 img{
+    width: 90px;
+    padding: 5px 5px 5px 5px;
+}
+.icon-2 img{
+    width: 90px;
+    padding: 5px 5px 5px 5px;
+}
+.icon-3 img{
+    width: 90px;
+    padding: 5px 5px 5px 5px;
 }
 
 /*Navigation*/
