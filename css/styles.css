@@ -1,5 +1,10 @@
 /* Styling */
 
+/* global */
+body{
+    background: url("/img/light_honeycomb.png");
+}
+
 /*header*/
 header img{
     width:100px;
