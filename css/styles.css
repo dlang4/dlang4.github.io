@@ -9,3 +9,25 @@ body{
 header img{
     width:100px;
 }
+
+/*main nav*/
+nav li{
+  list-style: none;
+  display: inline-block;
+}
+
+nav a:link, nav a:visited{
+  text-decoration: none;
+  background: pink;
+  padding: 1em;
+  transition: all 1s;
+}
+
+nav a:hover{
+  background: green;
+  margin-left: 1em;
+}
+
+nav a:active{
+  background: yellow;
+}
