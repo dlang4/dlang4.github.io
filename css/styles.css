@@ -1,9 +1,11 @@
 /* Styling */
 
 /* global */
+@import url(https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica);
 body{
     background: url("/img/light_honeycomb.png");
 }
+
 
 /*header*/
 header img{
@@ -30,4 +32,17 @@ nav a:hover{
 
 nav a:active{
   background: yellow;
+}
+
+blockquote{
+    font-family: 'IM Fell Double Pica', serif;
+    font-size: 2em;
+    color: orangered;
+    text-align: center;
+    text-shadow: 
+        -100px -10px 0 #000,
+    2px 8px 0 #000,
+    2px 32px 0 #000,
+    2px 128px 0 #000,
+    2px 256px 0 #000;
 }
