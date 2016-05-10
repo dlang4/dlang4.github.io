@@ -1,9 +1,16 @@
 /* Styling */
 
 /* global */
-@import url(https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300);
 body{
-    background: url("/img/light_honeycomb.png");
+    background: #BBB9A4;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.grid-container{
+    background: #ADE8DC;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
 }
 
 
@@ -35,14 +42,10 @@ nav a:active{
 }
 
 blockquote{
-    font-family: 'IM Fell Double Pica', serif;
     font-size: 2em;
     color: orangered;
     text-align: center;
     text-shadow: 
-        -100px -10px 0 #000,
-    2px 8px 0 #000,
-    2px 32px 0 #000,
-    2px 128px 0 #000,
-    2px 256px 0 #000;
+    2px 8px 0 #000;
+    background: #BBB9A4;
 }
