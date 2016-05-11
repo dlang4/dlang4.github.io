@@ -9,11 +9,15 @@ body{
 
 .grid-container{
     background: #ADE8DC;
-    margin-bottom: 10px;
-    padding: 10px 10px 10px 10px;
+    margin-bottom: 2em;
+    padding: 10px;
 }
 
-
+h3{
+    background: white;
+    padding: 1px;
+    text-align: center;
+}
 /*header*/
 header img{
     width:100px;
@@ -27,25 +31,26 @@ nav li{
 
 nav a:link, nav a:visited{
   text-decoration: none;
-  background: pink;
-  padding: 1em;
+  background: white;
+  padding: 2px 3px 2px 3px;
   transition: all 1s;
+    margin: 1em;
+    color: #86663F;
 }
 
 nav a:hover{
-  background: green;
-  margin-left: 1em;
+  background: #BBB9A4;
 }
 
 nav a:active{
-  background: yellow;
+  background: black;
 }
 
 blockquote{
     font-size: 2em;
-    color: orangered;
+    color: #86663F;
     text-align: center;
-    text-shadow: 
-    2px 8px 0 #000;
+    text-shadow: -1px 1px 0 black;
     background: #BBB9A4;
+    padding: 1em;
 }
