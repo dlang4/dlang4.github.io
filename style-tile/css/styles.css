@@ -1,9 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:300);
+@import url(https://fonts.googleapis.com/css?family=Cuprum:400,700);
 
 body{
     background: #BBB9A4;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Cuprum', sans-serif;
     text-align: center;
+    color: #404041;
 }
 
 .info{
@@ -18,12 +19,12 @@ body{
 
 /*Color Palette */
 .colors{
-    background: white;
+    background: #E6E7E8;
 }
 
 
 .color-1{
-    background: white;
+    background: #E6E7E8;
 }
 .color-2{
     background: #ADE8DC;
@@ -32,7 +33,7 @@ body{
     background: #BBB9A4;
 }
 .color-4{
-    background: black;
+    background: #404041;
 }
 .color-5{
     background: #86663F;
@@ -40,7 +41,7 @@ body{
 
 /*Texture and Pattern*/
 .patterns{
-    background: white;
+    background: #E6E7E8;
 }
 
 
@@ -50,7 +51,6 @@ body{
 }
 .pattern-2{
     background: url("/style-tile/img/dark_honeycomb.png") no-repeat center;
-    background-size: ;
 }
 .pattern-3{
     background: url("http://img07.deviantart.net/9a00/i/2010/032/2/c/rain_texture_by_fear_fixation.jpg") center no-repeat;
@@ -59,7 +59,7 @@ body{
 
 /*Images*/
 .imagery{
-    background: white;
+    background: #E6E7E8;
 }
 
 .imagery-1 img{
@@ -78,7 +78,7 @@ body{
 /*Icons*/
 
 .icons{
-    background: white;
+    background: #E6E7E8;
 }
 
 .icon-1 img{
@@ -97,7 +97,7 @@ body{
 /*Navigation*/
 .primary-nav{
     position: fixed;
-    background: black;
+    background: #404041;
       width: 100%;
   margin: 0;
   left: 0;
@@ -142,7 +142,7 @@ nav a:active{
 /*ORDER: LoVF HAte*/
 /*Typography*/
 .typography{
-    background: white;
+    background: #E6E7E8;
     text-align: center;
 }
 
