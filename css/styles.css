@@ -9,7 +9,6 @@ body{
 }
 
 .grid-container{
-    background: #ADE8DC;
     margin-bottom: 2em;
     padding: 10px;
 }
@@ -22,6 +21,10 @@ h3{
 /*header*/
 header img{
     width:100px;
+}
+header{
+    background: #404041;
+    color: #ADE8DC;
 }
 
 /*main nav*/
@@ -54,14 +57,4 @@ blockquote{
     text-shadow: -1px 1px 0 #404041;
     background: #BBB9A4;
     padding: 1em;
-}
-
-#resume{
-    width: 1px;
-    transition: all 1s;
-}
-#resume:hover{
-    width: 100%;
-    color: black;
-    transition: all 1s;
 }
