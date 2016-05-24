@@ -2,6 +2,8 @@
 
 /* global */
 @import url(https://fonts.googleapis.com/css?family=Cuprum:400,700);
+@import url(https://fonts.googleapis.com/css?family=Rationale);
+@import url(https://fonts.googleapis.com/css?family=Russo+One);
 body{
     background: #BBB9A4;
     font-family: 'Cuprum', sans-serif;
@@ -9,14 +11,21 @@ body{
 }
 
 .grid-container{
-    margin-bottom: 2em;
-    padding: 10px;
+    
 }
 
+h1{
+    font-size: 2em;
+}
 h3{
     background: #E6E7E8;
-    padding: 1px;
-    text-align: center;
+    border-radius: 4px;
+    padding: 3px 0 3px 3em;    
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.5em;    
+}
+h4{
+    font-size: 1.1em;
 }
 /*header*/
 header img{
@@ -25,20 +34,23 @@ header img{
 header{
     background: #404041;
     color: #ADE8DC;
+    border-radius: 1em;
+    text-align: right;
 }
 
 /*main nav*/
 nav li{
   list-style: none;
   display: inline-block;
+    float: right;
 }
 
 nav a:link, nav a:visited{
   text-decoration: none;
   background: #E6E7E8;
-  padding: 2px 3px 2px 3px;
+padding: 3px 3px 0 3px;
   transition: all 1s;
-    margin: 1em;
+   margin: 1em;
     color: #86663F;
 }
 
@@ -50,6 +62,7 @@ nav a:active{
   background: #404041;
 }
 
+/*
 blockquote{
     font-size: 2em;
     color: #86663F;
@@ -57,4 +70,4 @@ blockquote{
     text-shadow: -1px 1px 0 #404041;
     background: #BBB9A4;
     padding: 1em;
-}
+}*/
