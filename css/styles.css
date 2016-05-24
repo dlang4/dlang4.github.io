@@ -11,7 +11,12 @@ body{
 }
 
 .grid-container{
-    
+    animation: fadein 0.1s;
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to   {opacity: 1;}
 }
 
 h1{
@@ -20,10 +25,19 @@ h1{
 h3{
     background: #E6E7E8;
     border-radius: 4px;
-    padding: 3px 0 3px 3em;    
+    padding: 3px 0 3px 2em;    
     font-family: 'Russo One', sans-serif;
-    font-size: 1.5em;    
+    font-size: 1.5em;
+    animation: fadein2 3s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
 }
+
+@keyframes fadein2 {
+    from {opacity: 0;}
+    to   {opacity: 1;}
+}
+
 h4{
     font-size: 1.1em;
 }
