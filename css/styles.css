@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Cuprum:400,700);
-@import url(https://fonts.googleapis.com/css?family=Rationale);
 @import url(https://fonts.googleapis.com/css?family=Russo+One);
 body{
     background: #404041;
@@ -15,6 +14,15 @@ header{
     color: #ADE8DC;
     text-align: center;
 
+}
+
+h1{
+    font-size: 2em;
+    font-family: 'Russo One', sans-serif;
+    animation: fadein 0.1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 nav{
@@ -43,15 +51,6 @@ nav a:hover{
 }
 
 nav a:active{
-}
-
-h1{
-    font-size: 2em;
-    font-family: 'Russo One', sans-serif;
-    animation: fadein 0.1s;
-    animation-delay: 1s;
-    animation-fill-mode: forwards;
-    opacity: 0;
 }
 
 #title{
@@ -187,12 +186,62 @@ h4{
     height: 26em;
 }
 
-/*
-blockquote{
-    font-size: 2em;
-    color: #86663F;
-    text-align: center;
-    text-shadow: -1px 1px 0 #404041;
-    background: #BBB9A4;
-    padding: 1em;
-}*/
+@media (min-width: 768px) and (max-width: 1199px)  {
+    #bio{
+    background: #ADE8DC;
+    border-radius: 4px;
+    padding: 3px 0 3px 3px;    
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.5em;
+    animation: fadein 0.1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    color: #404041;
+    opacity: 0;
+}
+    #row2{
+    transition: all 0.5s;
+    height: 100%; /*adjust height when full paragraph is written*/
+    overflow: hidden;
+    transform: rotate(0deg) translate(0em,0em);
+}
+    #pro{
+    background: #ADE8DC;
+    border-radius: 4px;
+    padding: 3px 0 3px 3px;    
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.5em;
+    animation: fadein 0.1s;
+    animation-delay: 2.75s;
+    animation-fill-mode: forwards;
+    color: #404041;
+    opacity: 0;
+}
+        #row2point5{
+    transition: all 0.5s;
+    height: 100%; /*adjust height when full paragraph is written*/
+    overflow: hidden;
+    transform: rotate(0deg) translate(0em,0em);
+}
+}
+
+@media (min-width: 1px) and (max-width: 767px)  {
+   #bio{
+    background: #ADE8DC;
+    border-radius: 4px;
+    padding: 3px 0 3px 2em;    
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.75em;
+    animation: fadein 0.1s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    color: #404041;
+    opacity: 1;
+} 
+    #row2{
+    transition: all 0.5s;
+    height: 100%;
+    overflow: hidden;
+    transform: rotate(0) translate(0em,0em);
+}
+}

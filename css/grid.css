@@ -21,7 +21,7 @@ img {
 /* Media Queries
 ================================ */
 
-@media (min-width: 1px) and (max-width: 767px)  {
+@media (min-width: 1px) and (max-width: 1199px)  {
 	.grid-container > [class^="grid-"] {
 		padding-top: 5px;
 		padding-bottom: 5px;
