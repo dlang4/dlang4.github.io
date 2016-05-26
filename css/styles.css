@@ -7,6 +7,7 @@ body{
     color: #E6E7E8;
 }
 
+/*
 .grid-container{
     animation: fadein 0.1s;
 }
@@ -15,6 +16,7 @@ body{
     from {opacity: 0;}
     to   {opacity: 1;}
 }
+*/
 
 h1{
     font-size: 2em;
@@ -72,6 +74,10 @@ header{
     transition: all 0.5s;
     height: 16em;
     transform: translateY(0em);
+}
+
+#right{
+    text-align: right;
 }
 #row3{
     transition: all 0.5s;
