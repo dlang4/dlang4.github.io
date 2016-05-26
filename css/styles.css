@@ -5,9 +5,9 @@
 @import url(https://fonts.googleapis.com/css?family=Rationale);
 @import url(https://fonts.googleapis.com/css?family=Russo+One);
 body{
-    background: #BBB9A4;
+    background: #404041;
     font-family: 'Cuprum', sans-serif;
-    color: #404041;
+    color: #E6E7E8;
 }
 
 .grid-container{
@@ -23,7 +23,7 @@ h1{
     font-size: 2em;
 }
 h3{
-    background: #E6E7E8;
+    background: #ADE8DC;
     border-radius: 4px;
     padding: 3px 0 3px 2em;    
     font-family: 'Russo One', sans-serif;
@@ -31,6 +31,7 @@ h3{
     animation: fadein2 3s;
     animation-delay: 0s;
     animation-fill-mode: forwards;
+    color: #404041;
 }
 
 @keyframes fadein2 {
@@ -42,21 +43,43 @@ h4{
     font-size: 1.1em;
 }
 /*header*/
+/*
 header img{
     width:100px;
 }
+*/
 header{
     background: #404041;
     color: #ADE8DC;
     border-radius: 1em;
-    text-align: right;
+    text-align: center;
 }
 
+#row2{
+    transition: all 0.5s;
+    height: 4em;
+    overflow: hidden;
+    transform: rotate(-90deg) translate(-8.25em,-9.75em);
+}
+#row2:hover{
+    transition: all 0.5s;
+    height: 16em;
+    transform: translateY(0em);
+}
+#row3{
+    transition: all 0.5s;
+    height: 4em;
+    overflow: hidden;
+}
+#row3:hover{
+    transition: all 1s;
+    height: 26em;
+}
 /*main nav*/
 nav li{
   list-style: none;
   display: inline-block;
-    float: right;
+    float: center;
 }
 
 nav a:link, nav a:visited{
