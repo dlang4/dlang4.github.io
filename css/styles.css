@@ -295,14 +295,49 @@ h4{
 }
 }
 @media (min-width: 1px) and (max-width: 767px)  {
+    h1{
+    animation: fadein 0.0s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    opacity: 1;
+}
+
+nav{
+    animation: fadein 0.0s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    opacity: 1;
+}
     #title{
         padding: 3px 0 3px 1em;
+            animation: fadein 0.0s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    opacity: 1;
     }
     p, #right{
         text-align: justify;
         transition: all 1s;
     }
     #img{
-        transform: scale(0.75);
-        transition: all 1s;
+    transform: scale(0.80);
+    transition: all 1s;
+    animation-delay: 0;
+    opacity: 1;
+    animation: fadein 0.0s;
+    animation-fill-mode: forwards;
+    border: 20px solid #86663F;
+    background: #86663F;
     }
+    #pro{
+    background: #ADE8DC;
+    border-radius: 4px;
+    padding: 3px 0 3px 3px;    
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.5em;
+    color: #404041;
+            animation: fadein 0.0s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    opacity: 1;
+}
