@@ -24,6 +24,11 @@ h1{
     animation-delay: 1s;
     animation-fill-mode: forwards;
     opacity: 0;
+    text-shadow: 2px 3px #86663F;
+}
+
+h3{
+        text-shadow: 1px 1px #86663F;
 }
 
 nav{
@@ -160,14 +165,14 @@ h4{
 }
 #row2:hover{
     transition: all 0.5s;
-    height: 16em;
+    height: 18em;
     transform: translateY(0em);
 }
 #row2point5{
     transition: all 0.5s;
     height: 4.5em;
     overflow: hidden;
-    transform: rotate(90deg) translate(8.25em,-9.75em);
+    transform: rotate(90deg) translate(8.25em,-9.5em);
 }
 #row2point5:hover{
     transition: all 0.5s;
@@ -191,16 +196,17 @@ h4{
 @media (min-width: 1px) and (max-width: 1199px)  {
     #title{
     animation-delay: 1.5s;
+    transition: all 1s;
 }
     #row2{
     transition: all 0.5s;
-    height: 100%; /*adjust height when full paragraph is written*/
+    height: 22.5em;
     overflow: hidden;
     transform: rotate(0deg) translate(0em,-1.5em);
 }
     #row2:hover{
     transition: all 0.5s;
-    height: 100%;
+    height: 22.5em;
         transform: rotate(0deg) translate(0em,-1.5em);
 }
     #bio{
@@ -221,12 +227,12 @@ h4{
     }
         #row2point5{
     transition: all 0.5s;
-    height: 100%;
+    height: 22.5em;
     transform: rotate(0deg) translate(0em,-1.5em);
 }
     #row2point5:hover{
     transition: all 0.5s;
-    height: 100%;
+    height: 22.5em;
     transform: rotate(0deg) translate(0em,-1.5em);
 }
     #pro{
@@ -243,7 +249,10 @@ h4{
 }
     #row3{
     transition: all 0.5s;
-    height: 100%;
+    height: 26.5em;
+}
+        #row3:hover{
+    height: 26.5em;
 }
 #edu{
     background: #ADE8DC;
@@ -314,11 +323,16 @@ nav{
     animation-delay: 0s;
     animation-fill-mode: forwards;
     opacity: 1;
+        transition: all 1s;
     }
 p, #right{
         text-align: justify;
     }
-#img{
+    #bio{
+        margin-top: 1.5em;
+        transition: all 1s;
+    }
+    #img{
     transform: scale(0.80);
     transition: all 1s;
     animation-delay: 0;
@@ -327,6 +341,7 @@ p, #right{
     animation-fill-mode: forwards;
     border: 20px solid #86663F;
     background: #86663F;
+    border-radius: 4px;
     }
 #pro{
     background: #ADE8DC;
@@ -339,4 +354,17 @@ p, #right{
     animation-delay: 0s;
     animation-fill-mode: forwards;
     opacity: 1;
+    }
+    #row2{
+        height: 100%;
+    }
+            #row2:hover{
+        height: 100%;
+    }
+        #row2point5{
+        height: 100%;
+    }
+            #row2point5:hover{
+        height: 100%;
+    }
 }
