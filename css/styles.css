@@ -186,24 +186,35 @@ h4{
     height: 26em;
 }
 
-@media (min-width: 768px) and (max-width: 1199px)  {
+@media (min-width: 1px) and (max-width: 1199px)  {
+        #row2{
+    transition: all 0.5s;
+    height: 100%; /*adjust height when full paragraph is written*/
+    overflow: hidden;
+    transform: rotate(0deg) translate(0em,-1.5em);
+}
+    #row2:hover{
+    transition: all 0.5s;
+    height: 16em;
+    transform: translate(0em,-1.5em);
+}
     #bio{
     background: #ADE8DC;
     border-radius: 4px;
     padding: 3px 0 3px 3px;    
     font-family: 'Russo One', sans-serif;
     font-size: 1.5em;
-    animation: fadein 0.1s;
-    animation-delay: 1.5s;
-    animation-fill-mode: forwards;
     color: #404041;
-    opacity: 0;
 }
-    #row2{
+        #row2point5{
     transition: all 0.5s;
-    height: 100%; /*adjust height when full paragraph is written*/
-    overflow: hidden;
-    transform: rotate(0deg) translate(0em,0em);
+    height: 100%;
+    transform: rotate(0deg) translate(0em,-1.5em);
+}
+    #row2point5:hover{
+    transition: all 0.5s;
+    height: 16em;
+    transform: translate(0em,-1.5em);
 }
     #pro{
     background: #ADE8DC;
@@ -211,37 +222,46 @@ h4{
     padding: 3px 0 3px 3px;    
     font-family: 'Russo One', sans-serif;
     font-size: 1.5em;
-    animation: fadein 0.1s;
-    animation-delay: 2.75s;
-    animation-fill-mode: forwards;
     color: #404041;
-    opacity: 0;
 }
-        #row2point5{
+    #row3{
     transition: all 0.5s;
-    height: 100%; /*adjust height when full paragraph is written*/
-    overflow: hidden;
-    transform: rotate(0deg) translate(0em,0em);
+    height: 100%
 }
-}
-
-@media (min-width: 1px) and (max-width: 767px)  {
-   #bio{
+#edu{
     background: #ADE8DC;
     border-radius: 4px;
-    padding: 3px 0 3px 2em;    
+    padding: 3px 0 3px 3px;    
     font-family: 'Russo One', sans-serif;
-    font-size: 1.75em;
-    animation: fadein 0.1s;
-    animation-delay: 0s;
-    animation-fill-mode: forwards;
+    font-size: 1.5em;
     color: #404041;
-    opacity: 1;
-} 
-    #row2{
-    transition: all 0.5s;
-    height: 100%;
-    overflow: hidden;
-    transform: rotate(0) translate(0em,0em);
+}
+    #jobs{
+    background: #ADE8DC;
+    border-radius: 4px;
+    padding: 3px 0 3px 5px;    
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.5em;
+    color: #404041;
+}
+    #skills{
+    background: #ADE8DC;
+    border-radius: 4px;
+    padding: 3px 0 3px 3px;    
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.5em;
+    color: #404041;
+}
+    #ref{
+    background: #ADE8DC;
+    border-radius: 4px;
+    padding: 3px 0 3px 3px;    
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.5em;
+    color: #404041;
 }
 }
+@media (min-width: 1px) and (max-width: 767px)  {
+    p, #right{
+        text-align: justify;
+    }
