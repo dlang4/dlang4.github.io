@@ -308,18 +308,17 @@ nav{
     animation-fill-mode: forwards;
     opacity: 1;
 }
-    #title{
+#title{
         padding: 3px 0 3px 1em;
             animation: fadein 0.0s;
     animation-delay: 0s;
     animation-fill-mode: forwards;
     opacity: 1;
     }
-    p, #right{
+p, #right{
         text-align: justify;
-        transition: all 1s;
     }
-    #img{
+#img{
     transform: scale(0.80);
     transition: all 1s;
     animation-delay: 0;
@@ -329,7 +328,7 @@ nav{
     border: 20px solid #86663F;
     background: #86663F;
     }
-    #pro{
+#pro{
     background: #ADE8DC;
     border-radius: 4px;
     padding: 3px 0 3px 3px;    
