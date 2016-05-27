@@ -67,7 +67,7 @@ nav a:active{
     font-family: 'Russo One', sans-serif;
     font-size: 1.5em;
     animation: fadein 0.1s;
-    animation-delay: 3s;
+    animation-delay: 1.5s;
     animation-fill-mode: forwards;
     color: #404041;
     opacity: 0;
@@ -79,7 +79,7 @@ nav a:active{
     font-family: 'Russo One', sans-serif;
     font-size: 1.75em;
     animation: fadein 0.1s;
-    animation-delay: 1.5s;
+    animation-delay: 1.75s;
     animation-fill-mode: forwards;
     color: #404041;
     opacity: 0;
@@ -97,7 +97,7 @@ nav a:active{
     font-family: 'Russo One', sans-serif;
     font-size: 1.5em;
     animation: fadein 0.1s;
-    animation-delay: 2.75s;
+    animation-delay: 3s;
     animation-fill-mode: forwards;
     color: #404041;
     opacity: 0;
@@ -109,7 +109,7 @@ nav a:active{
     font-family: 'Russo One', sans-serif;
     font-size: 1.5em;
     animation: fadein 0.1s;
-    animation-delay: 1.75s;
+    animation-delay: 2s;
     animation-fill-mode: forwards;
     color: #404041;
     opacity: 0;
@@ -121,7 +121,7 @@ nav a:active{
     font-family: 'Russo One', sans-serif;
     font-size: 1.5em;
     animation: fadein 0.1s;
-    animation-delay: 2s;
+    animation-delay: 2.25s;
     animation-fill-mode: forwards;
     color: #404041;
     opacity: 0;
@@ -133,7 +133,7 @@ nav a:active{
     font-family: 'Russo One', sans-serif;
     font-size: 1.5em;
     animation: fadein 0.1s;
-    animation-delay: 2.25s;
+    animation-delay: 2.5s;
     animation-fill-mode: forwards;
     color: #404041;
     opacity: 0;
@@ -145,7 +145,7 @@ nav a:active{
     font-family: 'Russo One', sans-serif;
     font-size: 1.5em;
     animation: fadein 0.1s;
-    animation-delay: 2.5s;
+    animation-delay: 2.75s;
     animation-fill-mode: forwards;
     color: #404041;
     opacity: 0;
