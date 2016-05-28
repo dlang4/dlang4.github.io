@@ -3,3 +3,53 @@
 ::selection{
     background: #86663F;
 }
+body{
+    background: #404041;
+    font-family: 'Cuprum', sans-serif;
+    color: #E6E7E8;
+}
+header{
+    color: #ADE8DC;
+    text-align: center;
+
+}
+
+h1{
+    font-size: 2em;
+    font-family: 'Russo One', sans-serif;
+    text-shadow: 2px 3px #86663F;
+}
+nav{
+    margin-right: 2.5em;
+}
+nav li{
+  list-style: none;
+  display: inline-block;
+    float: center;
+}
+
+nav a:link, nav a:visited{
+  text-decoration: none;
+padding: 3px 3px 0 3px;
+  transition: all 1s;
+   margin: 1em;
+    color: #E6E7E8;
+}
+
+nav a:hover{
+  color: #BBB9A4;
+}
+
+nav a:active{
+}
+
+h3{
+    text-shadow: 1px 1px #86663F;
+    margin-top: -0.25em;
+    background: #ADE8DC;
+    border-radius: 4px;
+    padding: 3px 0 3px 2em;    
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.5em;
+    color: #404041;
+}
