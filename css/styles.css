@@ -1,6 +1,9 @@
 /*FIX 100% HEIGHT ON TABLET PARAGRAPHS?*/
 @import url(https://fonts.googleapis.com/css?family=Cuprum:400,700);
 @import url(https://fonts.googleapis.com/css?family=Russo+One);
+::selection{
+    background: #86663F;
+}
 body{
     background: #404041;
     font-family: 'Cuprum', sans-serif;
