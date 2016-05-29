@@ -1,3 +1,4 @@
+/*ADD JUMP LINKS IN GALLERY SECTION TO VARIOUS SECTIONS*/
 @import url(https://fonts.googleapis.com/css?family=Cuprum:400,700);
 @import url(https://fonts.googleapis.com/css?family=Russo+One);
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
@@ -74,6 +75,17 @@ img{
     margin-top: -6em;
     margin-bottom: -4em;
     transition: all 1s;
+}
+
+figcaption{
+    transform: scale(0.75);
+    font-size: 1.33em;
+    margin-top: -6em;
+    margin-bottom: 4em;
+    padding: 0 0.5em 0 0.5em;
+}
+figure:hover figcaption{
+/*    FILL IN    */
 }
 
 @media (min-width: 1px) and (max-width: 767px)  {
