@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Cuprum:400,700);
 @import url(https://fonts.googleapis.com/css?family=Russo+One);
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 ::selection{
     background: #86663F;
 }
@@ -65,11 +66,27 @@ h3{
     color: #404041;
     background: #E6E7E8;
     padding: 1.5em;
+    font-family: 'Anonymous Pro';
+    font-size: 1.
 }
 img{
     transform: scale(.75);
     margin-top: -6em;
     margin-bottom: -4em;
+    transition: all 1s;
 }
 
+@media (min-width: 1px) and (max-width: 767px)  {
+    h3{
+        margin-top: 0em;
+        margin-bottom: -0.25em;
+        padding: 3px 0 3px 5px;
+    }
+    img{
+            margin-top: 0em;
+    margin-bottom: 0em;
+        transform: scale(1);
+        transition: all 1s;
+    }
+}
 
