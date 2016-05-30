@@ -1,4 +1,5 @@
 /*ADD JUMP LINKS IN GALLERY SECTION TO VARIOUS SECTIONS*/
+/*WIDTH AND HEIGHT NEED TO BE EXACT SIZES IN IMAGES, NOT 100%*/
 @import url(https://fonts.googleapis.com/css?family=Cuprum:400,700);
 @import url(https://fonts.googleapis.com/css?family=Russo+One);
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
@@ -79,7 +80,8 @@ img{
 figure{
     width: 100%;
     height: 100%;
-    transform: scale(.75)
+    transform: scale(.75);
+    overflow: hidden;
 }
 
 figcaption{
