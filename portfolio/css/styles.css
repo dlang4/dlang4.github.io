@@ -71,7 +71,9 @@ h3{
     font-family: 'Anonymous Pro';
     font-size: 0.8em;
 }
-
+img{
+    margin-bottom: 0.25em;
+}
 figure{
     height: 100;
     
