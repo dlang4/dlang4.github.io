@@ -58,6 +58,7 @@ h3{
 }
 #desc{
     width: 67%;
+    float: none;
     margin: auto;
     margin-bottom: 1em;
 }
@@ -84,7 +85,7 @@ figcaption{
     opacity: 0;
     transition: opacity 1s;
     background: #404041;
-    margin-top: -9em;
+    margin-top: -10em;
     padding: 3px 0 3px 2em;
     margin-bottom: 5em;
     
