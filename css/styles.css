@@ -196,7 +196,7 @@ h4{
     height: 26em;
 }
 
-@media (min-width: 1px) and (max-width: 1199px)  {
+@media (min-width: 768px) and (max-width: 1199px)  {
     #title{
     animation-delay: 1.5s;
     transition: all 1s;
@@ -346,10 +346,11 @@ p, #right{
     background: #86663F;
     border-radius: 4px;
     }
+
+
 #pro{
     background: #ADE8DC;
-    border-radius: 4px;
-    padding: 3px 0 3px 3px;    
+    border-radius: 4px;    
     font-family: 'Russo One', sans-serif;
     font-size: 1.5em;
     color: #404041;
@@ -358,16 +359,9 @@ p, #right{
     animation-fill-mode: forwards;
     opacity: 1;
     }
-    #row2{
-        height: 100%;
+        #row2, #row2point5, #row2:hover, #row2point5:hover, #row3, #row3:hover{
+        transform: rotate(0deg) translate(0em,0em);
+        height: 100%
     }
-            #row2:hover{
-        height: 100%;
-    }
-        #row2point5{
-        height: 100%;
-    }
-            #row2point5:hover{
-        height: 100%;
-    }
+
 }
