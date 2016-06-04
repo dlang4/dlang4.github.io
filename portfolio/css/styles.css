@@ -48,13 +48,13 @@ nav a:active{
 
 h3{
     text-shadow: 1px 1px #86663F;
-    margin-top: -0.25em;
     background: #ADE8DC;
     border-radius: 4px;
     padding: 3px 0 3px 2em;    
     font-family: 'Russo One', sans-serif;
     font-size: 1.5em;
     color: #404041;
+    margin-top: -0.25em;
 }
 #desc{
     width: 67%;
@@ -64,34 +64,35 @@ h3{
 #py{
     width: 67%;
     margin: auto;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     color: #404041;
     background: #E6E7E8;
     padding: 1.5em;
     font-family: 'Anonymous Pro';
-    font-size: 1.
+    font-size: 0.8em;
 }
 img{
     transition: all 1s;
+    margin-bottom: 4em;
 }
 
-#figure{
-    overflow: hidden;
-    transition: opacity 1s;
+figure{
     height: 100;
     
 }
 
 figcaption{
-    font-size: 1.33em;
     padding: 0 0.5em 0 0.5em;
     opacity: 0;
     transition: opacity 1s;
-    background: black;
+    background: #404041;
+    margin-top: -9em;
+    padding: 3px 0 3px 2em;
+    margin-bottom: 5em;
     
 }
-figure:hover figcaption, figure:{
-      opacity: 0.99;
+figure:hover figcaption, figure:focus figcaption{
+      opacity: 0.95;
   transition: opacity 1s;
 }
 
