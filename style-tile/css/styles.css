@@ -1,26 +1,30 @@
 @import url(https://fonts.googleapis.com/css?family=Cuprum:400,700);
-
+@import url(https://fonts.googleapis.com/css?family=Russo+One);
+::selection{
+    background: #86663F;
+}
 body{
-    background: #BBB9A4;
+    background: #404041;
     font-family: 'Cuprum', sans-serif;
     text-align: center;
-    color: #404041;
 }
 
 .info{
-    background: #86663F;
     position: static;
     margin-top: 120px;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #ADE8DC;
     padding-top: 1px;
     padding-bottom: 1px;
+    font-family: 'Russo One', sans-serif;
+    text-shadow: 2px 3px #86663F;
 }
 
-/*Color Palette */
-.colors{
-    background: #E6E7E8;
+h2{
+    background: #ADE8DC;
+    border-radius: 4px;
 }
+/*Color Palette */
 
 .color-1{
     background: #E6E7E8;
@@ -39,9 +43,6 @@ body{
 }
 
 /*Texture and Pattern*/
-.patterns{
-    background: #E6E7E8;
-}
 
 
 .pattern-1{
@@ -57,13 +58,9 @@ body{
 }
 
 /*Images*/
-.imagery{
-    background: #E6E7E8;
-}
 
 .imagery-1 img{
     width: 250px;
-/*    box-shadow: -10px -10px 20px red*/
 }
 
 .imagery-2 img{
@@ -79,7 +76,6 @@ body{
 .icons{
     background: #E6E7E8;
 }
-
 .icon-1 img{
     width: 90px;
     padding: 5px 5px 5px 5px;
@@ -102,7 +98,7 @@ body{
   left: 0;
   top: 0;
   text-align: left;
-    color: #ADE8DC;
+    color: #404041;
     padding-left: 30px;
 }
 
@@ -112,17 +108,13 @@ nav li{
     padding-right: 50px;
 }
 
-nav a:link{
-    background: #86663F;
-    padding: 5px 20px 5px 20px;
+nav a:link, nav a:visited{
+    background: #BBB9A4;
+    padding: 1px;
     margin: 0 20px 0 20px;
     text-decoration: none;
     border-radius: 5px;
-    color: #ADE8DC; /*doesn't work because no links?*/
-}
-
-nav a:visited{
-    color: #ADE8DC; /*CHANGE when links are updated?*/
+    color: #404041;
 }
 
 nav a:focus{
@@ -141,15 +133,11 @@ nav a:active{
 /*ORDER: LoVF HAte*/
 /*Typography*/
 .typography{
-    background: #E6E7E8;
-    text-align: center;
+    background: #404041;
+    color: #E6E7E8;
 }
 
-.typography a:link{
-    ;
-    color: #ADE8DC;
-}
-
-typography a:visited{
-    color: #ADE8DC; /*Neither of these are working?*/
+.typography a:link, .typography a:visited{
+    color: #BBB9A4;
+    text-decoration: none;
 }
