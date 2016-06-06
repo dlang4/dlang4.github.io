@@ -25,13 +25,13 @@ h1{
 nav{
     margin-right: 2.5em;
 }
-nav li{
+li{
   list-style: none;
   display: inline-block;
     float: center;
 }
 
-nav a:link, nav a:visited{
+a:link, a:visited{
   text-decoration: none;
 padding: 3px 3px 0 3px;
   transition: all 1s;
@@ -39,11 +39,11 @@ padding: 3px 3px 0 3px;
     color: #E6E7E8;
 }
 
-nav a:hover{
+a:hover{
   color: #BBB9A4;
 }
 
-nav a:active{
+a:active{
 }
 
 h3{
@@ -72,6 +72,13 @@ h3{
     font-family: 'Anonymous Pro';
     font-size: 0.8em;
 }
+
+#links{
+    font-size: 1.25em;
+    width: 67%;
+    margin: auto;
+    margin-bottom: 2em;
+}
 img{
     margin-bottom: 5em;
 }
@@ -88,6 +95,7 @@ figcaption{
     margin-top: -10em;
     padding: 3px 0 3px 2em;
     margin-bottom: 5em;
+    font-size: 1.5em;
     
 }
 figure:hover figcaption, figure:focus figcaption{
