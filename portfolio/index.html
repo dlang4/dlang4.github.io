@@ -1,130 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>David Lang - Portfolio</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
 </head>
-<header class="grid-container">
-    <article class="grid-12">
-    <h1>David Lang - Portfolio</h1>
-    <nav>
-<ul>
-  <li><a href="http://dlang4.github.io/">Home &amp; R&eacute;sum&eacute;</a></li>
-  <li><a href="http://dlang4.github.io/contact">Contact</a></li>
-  <li><a href="http://dlang4.github.io/style-tile">Styletile</a></li>
-</ul>
-</nav>
-</header>
-        <body>
-       <article class="grid-container">
-        <section class="grid-12">
-                        <h3>Gallery</h3>
-        </section>
-    </article>
-                 <article class="grid-container">
-        <section class="grid-12">
-                        <p id="desc">Below is my GIS work, showcasing Python code, GIS data creation, input &amp; editing, analysis, map design, and knowledge of coordinate systems &amp; datums. Hover or tap each image to read an overview of the project.</p>
-                        <ul id="contents">
-                        <li><a href="#python">Python Code</a></li>
-                          <li><a href="#creation">Data Creation</a></li>
-                          <li><a href="#input">Data Input &amp; Editing</a></li>
-                          <li><a href="#analysis">Data Analysis</a></li>
-                          <li><a href="#design">Map Design</a></li>
-                          <li><a href="#coordinate">Coordinate Systems &amp; Datums</a></li>
-                          <li><a href="#arcinfo">ArcInfo Workstation Guide</a></li>
-</ul>
-        </section>
-    </article>
- <article class="grid-container">
-        <section class="grid-12">
-                        <h3 id="python">Python Code</h3>
-        </section>
-    </article>
-          <article class="grid-container">
-        <section class="grid-12">
-                        <p id="desc">The following code clips an entire group of raster files with a designated shapefile:</p>
-        </section>
-    </article>
-           <article class="grid-container">
-        <section class="grid-12">
-        <p id="py">#Create a new script in a toolbox and run this code:<br>poly = arcpy.GetParameterAsText(0) #Create shapefile input variable for clip.<br>folder = arcpy.GetParameterAsText(1) #Create folder input variable to clip.<br>arcpy.env.workspace = folder<br><br>rasterlist = arcpy.ListRasters()<br>for r in rasterlist:<br>arcpy.AddMessage(r) #prints names of rasters, NOT NEEDED<br>newname = r + "_Clip.tif" #outputs in same folder with _Clip.tif added.<br>arcpy.Clip_management(r,"#",newname,poly,0, "ClippingGeometry")</p>
-        </section>
-    </article>                 
-                 <article class="grid-container">
-        <section class="grid-12">
-                        <h3 id="creation">Data Creation</h3>
-        </section>
-    </article>
-           <article class="grid-container">
-        <section class="grid-12">
-                <figure id="dc">
-        <img src="img/DataCreation.gif" alt="">
-        <figcaption>The digitization of Yellowstone National Park in 1881 at the specified coordinates. The Hotels layer was referenced and digitized in ArcInfo Workstation.</figcaption>
-        </figure>
-        </section>
-    </article>
-                 <article class="grid-container">
-        <section class="grid-12">
-                        <h3 id="input">Data Input &amp; Editing</h3>
-        </section>
-    </article>
-           <article class="grid-container">
-            <p id="links"><a href="https://www.arcgis.com/home/item.html?id=69286a6749314f66bbe246884472b4f5">Click here to view the Spokane Regional Transportation Council's road construction map, which I currently update and manage.</a></p>
-    </article>
-                 <article class="grid-container">
-        <section class="grid-12">
-                        <h3 id="analysis">Data Analysis</h3>
-        </section>
-    </article>
-           <article class="grid-container">
-        <section class="grid-12">
-                <figure>
-        <img src="img/DataAnalysis.gif" alt="">
-        <figcaption>Determining possible endangerment zones for desert tortoises in California due to an increase in common ravens due to installed transmission lines.</figcaption>
-        </figure>
-        </section>
-    </article>
-                 <article class="grid-container">
-        <section class="grid-12">
-                        <h3 id="design">Map Design</h3>
-        </section>
-    </article>
-           <article class="grid-container">
-        <section class="grid-12">
-                <figure>
-        <img src="img/MapDesignGN.png" alt="">
-        <figcaption>Digitized Eastern Washington University campus features for EWU Disability Support Services. Features include buildings, pathways, ramps, parking lots, restrooms, gender neutral restrooms, baby friendly restrooms and feeding rooms, fire escapes, areas of rescue, powered doors, elevators, and handicap parking.</figcaption>
-        </figure>
-        </section>
-    </article>
-
-
-                 <article class="grid-container">
-        <section class="grid-12">
-                        <h3 id="coordinate">Coordinate Systems &amp; Datums</h3>
-        </section>
-    </article>
-           <article class="grid-container">
-        <section class="grid-12">
-                <figure>
-        <img src="img/CoorSys.png" alt="">
-        <figcaption>Execution of multiple coordinate systems. Some layers are hidden behind others. </figcaption>
-        </figure>
-        </section>
-    </article>
-    
+<body>
+    <header class="grid-container">
+        <article class="grid-12">
+            <h1>David Lang - Portfolio</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="http://dlang4.github.io/">Home &amp;
+                        R&eacute;sum&eacute;</a>
+                    </li>
+                    <li>
+                        <a href="http://dlang4.github.io/contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href=
+                        "http://dlang4.github.io/style-tile">Styletile</a>
+                    </li>
+                </ul>
+            </nav>
+        </article>
+    </header>
     <article class="grid-container">
         <section class="grid-12">
-                        <h3 id="arcinfo">ArcInfo Workstation Guide</h3>
+            <h3>Gallery</h3>
         </section>
     </article>
-           <article class="grid-container">
-            <p id="links"><a href="http://dlang4.github.io/portfolio/arcguide.pdf">Click here to view the PDF guide I assembled for working with ArcInfo Workstation.</a></p>
+    <article class="grid-container">
+        <section class="grid-12">
+            <p id="desc">Below is my GIS work, showcasing Python code, GIS data
+            creation, input &amp; editing, analysis, map design, and knowledge
+            of coordinate systems &amp; datums. Hover or tap each image to read
+            an overview of the project.</p>
+            <ul id="contents">
+                <li>
+                    <a href="#python">Python Code</a>
+                </li>
+                <li>
+                    <a href="#creation">Data Creation</a>
+                </li>
+                <li>
+                    <a href="#input">Data Input &amp; Editing</a>
+                </li>
+                <li>
+                    <a href="#analysis">Data Analysis</a>
+                </li>
+                <li>
+                    <a href="#design">Map Design</a>
+                </li>
+                <li>
+                    <a href="#coordinate">Coordinate Systems &amp; Datums</a>
+                </li>
+                <li>
+                    <a href="#arcinfo">ArcInfo Workstation Guide</a>
+                </li>
+            </ul>
+        </section>
     </article>
-
+    <article class="grid-container">
+        <section class="grid-12">
+            <h3 id="python">Python Code</h3>
+        </section>
+    </article>
+    <article class="grid-container">
+        <section class="grid-12">
+            <p id="desc">The following code clips an entire group of raster
+            files with a designated shapefile:</p>
+        </section>
+    </article>
+    <article class="grid-container">
+        <section class="grid-12">
+            <p id="py">#Create a new script in a toolbox and run this code:<br>
+            poly = arcpy.GetParameterAsText(0) #Create shapefile input variable
+            for clip.<br>
+            folder = arcpy.GetParameterAsText(1) #Create folder input variable
+            to clip.<br>
+            arcpy.env.workspace = folder<br>
+            <br>
+            rasterlist = arcpy.ListRasters()<br>
+            for r in rasterlist:<br>
+            arcpy.AddMessage(r) #prints names of rasters, NOT NEEDED<br>
+            newname = r + "_Clip.tif" #outputs in same folder with _Clip.tif
+            added.<br>
+            arcpy.Clip_management(r,"#",newname,poly,0, "ClippingGeometry")</p>
+        </section>
+    </article>
+    <article class="grid-container">
+        <section class="grid-12">
+            <h3 id="creation">Data Creation</h3>
+        </section>
+    </article>
+    <article class="grid-container">
+        <section class="grid-12">
+            <figure id="dc">
+                <img alt="" src="img/DataCreation.gif">
+                <figcaption>
+                    The digitization of Yellowstone National Park in 1881 at
+                    the specified coordinates. The Hotels layer was referenced
+                    and digitized in ArcInfo Workstation.
+                </figcaption>
+            </figure>
+        </section>
+    </article>
+    <article class="grid-container">
+        <section class="grid-12">
+            <h3 id="input">Data Input &amp; Editing</h3>
+        </section>
+    </article>
+    <article class="grid-container">
+        <p id="links"><a href=
+        "https://www.arcgis.com/home/item.html?id=69286a6749314f66bbe246884472b4f5">
+        Click here to view the Spokane Regional Transportation Council's road
+        construction map, which I currently update and manage.</a></p>
+    </article>
+    <article class="grid-container">
+        <section class="grid-12">
+            <h3 id="analysis">Data Analysis</h3>
+        </section>
+    </article>
+    <article class="grid-container">
+        <section class="grid-12">
+            <figure>
+                <img alt="" src="img/DataAnalysis.gif">
+                <figcaption>
+                    Determining possible endangerment zones for desert
+                    tortoises in California due to an increase in common ravens
+                    due to installed transmission lines.
+                </figcaption>
+            </figure>
+        </section>
+    </article>
+    <article class="grid-container">
+        <section class="grid-12">
+            <h3 id="design">Map Design</h3>
+        </section>
+    </article>
+    <article class="grid-container">
+        <section class="grid-12">
+            <figure>
+                <img alt="" src="img/MapDesignGN.png">
+                <figcaption>
+                    Digitized Eastern Washington University campus features for
+                    EWU Disability Support Services. Features include
+                    buildings, pathways, ramps, parking lots, restrooms, gender
+                    neutral restrooms, baby friendly restrooms and feeding
+                    rooms, fire escapes, areas of rescue, powered doors,
+                    elevators, and handicap parking.
+                </figcaption>
+            </figure>
+        </section>
+    </article>
+    <article class="grid-container">
+        <section class="grid-12">
+            <h3 id="coordinate">Coordinate Systems &amp; Datums</h3>
+        </section>
+    </article>
+    <article class="grid-container">
+        <section class="grid-12">
+            <figure>
+                <img alt="" src="img/CoorSys.png">
+                <figcaption>
+                    Execution of multiple coordinate systems. Some layers are
+                    hidden behind others.
+                </figcaption>
+            </figure>
+        </section>
+    </article>
+    <article class="grid-container">
+        <section class="grid-12">
+            <h3 id="arcinfo">ArcInfo Workstation Guide</h3>
+        </section>
+    </article>
+    <article class="grid-container">
+        <p id="links"><a href=
+        "http://dlang4.github.io/portfolio/arcguide.pdf">Click here to view the
+        PDF guide I assembled for working with ArcInfo Workstation.</a></p>
+    </article>
 </body>
 </html>

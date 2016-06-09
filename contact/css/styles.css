@@ -1,63 +1,70 @@
-@import url(https://fonts.googleapis.com/css?family=Cuprum:400,700);
-@import url(https://fonts.googleapis.com/css?family=Russo+One);
-@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
-::selection{
+@import  "https://fonts.googleapis.com/css?family=Cuprum:400,700";
+
+@import  "https://fonts.googleapis.com/css?family=Russo+One";
+
+@import  "https://fonts.googleapis.com/css?family=Anonymous+Pro";
+
+::selection {
     background: #86663F;
 }
-body{
+
+body {
     background: #404041;
-    font-family: 'Cuprum', sans-serif;
+    font-family: 'Cuprum',sans-serif;
     color: #E6E7E8;
 }
-header{
+
+header {
     color: #ADE8DC;
     text-align: center;
-
 }
 
-h1{
+h1 {
     font-size: 2em;
-    font-family: 'Russo One', sans-serif;
+    font-family: 'Russo One',sans-serif;
     text-shadow: 2px 3px #86663F;
 }
-nav{
+
+nav {
     margin-right: 2.5em;
 }
-li{
-  list-style: none;
+
+li {
+    list-style: none;
     float: center;
 }
 
-nav li{
+nav li {
     display: inline-block;
 }
 
-a:link, a:visited{
-  text-decoration: none;
-padding: 3px 3px 0 3px;
-  transition: all 1s;
-   margin: 1em;
+a:link,a:visited {
+    text-decoration: none;
+    padding: 3px 3px 0;
+    transition: all 1s;
+    margin: 1em;
     color: #E6E7E8;
 }
 
-a:hover{
-  color: #BBB9A4;
+a:hover {
+    color: #BBB9A4;
 }
 
-a:active{
+a:active {
 }
 
-h3{
+h3 {
     text-shadow: 1px 1px #86663F;
     background: #ADE8DC;
     border-radius: 4px;
-    padding: 3px 0 3px 2em;    
-    font-family: 'Russo One', sans-serif;
+    padding: 3px 0 3px 2em;
+    font-family: 'Russo One',sans-serif;
     font-size: 1.5em;
     color: #404041;
-    margin-top: -0.25em;
+    margin-top: -.25em;
 }
-p{
+
+p {
     margin: auto;
-    width: 67%
+    width: 67%;
 }
