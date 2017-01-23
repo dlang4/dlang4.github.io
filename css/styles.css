@@ -1,25 +1,30 @@
 @import url(https://fonts.googleapis.com/css?family=Cuprum:400,700);
 @import url(https://fonts.googleapis.com/css?family=Russo+One);
-::selection{
+::selection {
     background: #86663F;
 }
-body{
+
+body {
     background: #404041;
     font-family: 'Cuprum', sans-serif;
     color: #E6E7E8;
 }
 
 @keyframes fadein {
-    from {opacity: 0;}
-    to   {opacity: 1;}
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
-header{
+
+header {
     color: #ADE8DC;
     text-align: center;
-
 }
 
-h1{
+h1 {
     font-size: 2em;
     font-family: 'Russo One', sans-serif;
     animation: fadein 0.1s;
@@ -29,43 +34,44 @@ h1{
     text-shadow: 2px 3px #86663F;
 }
 
-h3{
-        text-shadow: 1px 1px #86663F;
+h3 {
+    text-shadow: 1px 1px #86663F;
 }
 
-nav{
+nav {
     margin-right: 2.5em;
     animation: fadein 0.1s;
     animation-delay: 1.25s;
     animation-fill-mode: forwards;
     opacity: 0;
 }
-nav li{
-  list-style: none;
-  display: inline-block;
+
+nav li {
+    list-style: none;
+    display: inline-block;
     float: center;
 }
 
-nav a:link, nav a:visited{
-  text-decoration: none;
-padding: 3px 3px 0 3px;
-  transition: all 1s;
-   margin: 1em;
+nav a:link,
+nav a:visited {
+    text-decoration: none;
+    padding: 3px 3px 0 3px;
+    transition: all 1s;
+    margin: 1em;
     color: #E6E7E8;
 }
 
-nav a:hover{
-  color: #BBB9A4;
+nav a:hover {
+    color: #BBB9A4;
 }
 
-nav a:active{
-}
+nav a:active {}
 
-#title{
+#title {
     margin-top: -0.25em;
     background: #ADE8DC;
     border-radius: 4px;
-    padding: 3px 0 3px 2em;    
+    padding: 3px 0 3px 2em;
     font-family: 'Russo One', sans-serif;
     font-size: 1.5em;
     animation: fadein 0.1s;
@@ -74,10 +80,11 @@ nav a:active{
     color: #404041;
     opacity: 0;
 }
-#bio{
+
+#bio {
     background: #ADE8DC;
     border-radius: 4px;
-    padding: 3px 0 3px 2em;    
+    padding: 3px 0 3px 2em;
     font-family: 'Russo One', sans-serif;
     font-size: 1.75em;
     animation: fadein 0.1s;
@@ -86,16 +93,18 @@ nav a:active{
     color: #404041;
     opacity: 0;
 }
-#img{   
+
+#img {
     animation: fadein 0.1s;
     animation-delay: 3.25s;
     animation-fill-mode: forwards;
     opacity: 0;
 }
-#pro{
+
+#pro {
     background: #ADE8DC;
     border-radius: 4px;
-    padding: 3px 0 3px 2em;    
+    padding: 3px 0 3px 2em;
     font-family: 'Russo One', sans-serif;
     font-size: 1.5em;
     animation: fadein 0.1s;
@@ -104,10 +113,11 @@ nav a:active{
     color: #404041;
     opacity: 0;
 }
-#edu{
+
+#edu {
     background: #ADE8DC;
     border-radius: 4px;
-    padding: 3px 0 3px 2em;    
+    padding: 3px 0 3px 2em;
     font-family: 'Russo One', sans-serif;
     font-size: 1.5em;
     animation: fadein 0.1s;
@@ -116,10 +126,11 @@ nav a:active{
     color: #404041;
     opacity: 0;
 }
-#jobs{
+
+#jobs {
     background: #ADE8DC;
     border-radius: 4px;
-    padding: 3px 0 3px 2em;    
+    padding: 3px 0 3px 2em;
     font-family: 'Russo One', sans-serif;
     font-size: 1.5em;
     animation: fadein 0.1s;
@@ -128,10 +139,11 @@ nav a:active{
     color: #404041;
     opacity: 0;
 }
-#skills{
+
+#skills {
     background: #ADE8DC;
     border-radius: 4px;
-    padding: 3px 0 3px 2em;    
+    padding: 3px 0 3px 2em;
     font-family: 'Russo One', sans-serif;
     font-size: 1.5em;
     animation: fadein 0.1s;
@@ -140,10 +152,11 @@ nav a:active{
     color: #404041;
     opacity: 0;
 }
-#ref{
+
+#ref {
     background: #ADE8DC;
     border-radius: 4px;
-    padding: 3px 0 3px 2em;    
+    padding: 3px 0 3px 2em;
     font-family: 'Russo One', sans-serif;
     font-size: 1.5em;
     animation: fadein 0.1s;
@@ -153,214 +166,220 @@ nav a:active{
     opacity: 0;
 }
 
-h4{
+h4 {
     font-size: 1.1em;
 }
 
-
-
-#row2{
+#row2 {
     transition: all 0.5s;
     height: 4.5em;
     overflow: hidden;
-    transform: rotate(-90deg) translate(-8.25em,-9.75em);
+    transform: rotate(-90deg) translate(-8.25em, -9.75em);
 }
-#row2:hover{
+
+#row2:hover {
     transition: all 0.5s;
     height: 18em;
     transform: translateY(0em);
 }
-#row2point5{
+
+#row2point5 {
     transition: all 0.5s;
     height: 4.5em;
     overflow: hidden;
-    transform: rotate(90deg) translate(8.25em,-9.5em);
+    transform: rotate(90deg) translate(8.25em, -9.5em);
 }
-#row2point5:hover{
+
+#row2point5:hover {
     transition: all 0.5s;
     height: 16em;
     transform: translateY(0em);
 }
 
-#right{
+#right {
     text-align: right;
 }
-#row3{
+
+#row3 {
     transition: all 0.5s;
     height: 4em;
     overflow: hidden;
 }
-#row3:hover{
+
+#row3:hover {
     transition: all 1s;
-    height: 26em;
+    height: 29.5em;
 }
 
-@media (min-width: 768px) and (max-width: 1199px)  {
-    #title{
-    animation-delay: 1.5s;
-    transition: all 1s;
-}
-    #row2{
-    transition: all 0.5s;
-    height: 22.5em;
-    overflow: hidden;
-    transform: rotate(0deg) translate(0em,-1.5em);
-}
-    #row2:hover{
-    transition: all 0.5s;
-    height: 22.5em;
-        transform: rotate(0deg) translate(0em,-1.5em);
-}
-    #bio{
-    background: #ADE8DC;
-    border-radius: 4px;
-    padding: 3px 0 3px 3px;    
-    font-family: 'Russo One', sans-serif;
-    font-size: 1.5em;
-    color: #404041;
-    animation: fadein 0.0s;
-    animation-delay: 0s;
-    animation-fill-mode: forwards;
-    opacity: 1;
-}
-    #img{
-    animation-delay: 1.75s;
-    transition: all 1s;
-    }
-        #row2point5{
-    transition: all 0.5s;
-    height: 22.5em;
-    transform: rotate(0deg) translate(0em,-1.5em);
-}
-    #row2point5:hover{
-    transition: all 0.5s;
-    height: 22.5em;
-    transform: rotate(0deg) translate(0em,-1.5em);
-}
-    #pro{
-    background: #ADE8DC;
-    border-radius: 4px;
-    padding: 3px 0 3px 3px;    
-    font-family: 'Russo One', sans-serif;
-    font-size: 1.5em;
-    color: #404041;
-            animation: fadein 0.0s;
-    animation-delay: 0s;
-    animation-fill-mode: forwards;
-    opacity: 1;
-}
-    #row3{
-    transition: all 0.5s;
-    height: 26.5em;
-}
-        #row3:hover{
-    height: 26.5em;
-}
-#edu{
-    background: #ADE8DC;
-    border-radius: 4px;
-    padding: 3px 0 3px 3px;    
-    font-family: 'Russo One', sans-serif;
-    font-size: 1.5em;
-    color: #404041;
-        animation: fadein 0.0s;
-    animation-delay: 0s;
-    animation-fill-mode: forwards;
-    opacity: 1;
-}
-    #jobs{
-    background: #ADE8DC;
-    border-radius: 4px;
-    padding: 3px 0 3px 5px;    
-    font-family: 'Russo One', sans-serif;
-    font-size: 1.5em;
-    color: #404041;
-            animation: fadein 0.0s;
-    animation-delay: 0s;
-    animation-fill-mode: forwards;
-    opacity: 1;
-}
-    #skills{
-    background: #ADE8DC;
-    border-radius: 4px;
-    padding: 3px 0 3px 3px;    
-    font-family: 'Russo One', sans-serif;
-    font-size: 1.5em;
-    color: #404041;
-            animation: fadein 0.0s;
-    animation-delay: 0s;
-    animation-fill-mode: forwards;
-    opacity: 1;
-}
-    #ref{
-    background: #ADE8DC;
-    border-radius: 4px;
-    padding: 3px 0 3px 3px;    
-    font-family: 'Russo One', sans-serif;
-    font-size: 1.5em;
-    color: #404041;
-            animation: fadein 0.0s;
-    animation-delay: 0s;
-    animation-fill-mode: forwards;
-    opacity: 1;
-}
-}
-@media (min-width: 1px) and (max-width: 767px)  {
-    h1{
-    animation: fadein 0.0s;
-    animation-delay: 0s;
-    animation-fill-mode: forwards;
-    opacity: 1;
-}
-
-nav{
-    animation: fadein 0.0s;
-    animation-delay: 0s;
-    animation-fill-mode: forwards;
-    opacity: 1;
-}
-#title{
-        padding: 3px 0 3px 1em;
-            animation: fadein 0.0s;
-    animation-delay: 0s;
-    animation-fill-mode: forwards;
-    opacity: 1;
+@media (min-width: 768px) and (max-width: 1199px) {
+    #title {
+        animation-delay: 1.5s;
         transition: all 1s;
     }
-p, #right{
+    #row2 {
+        transition: all 0.5s;
+        height: 22.5em;
+        overflow: hidden;
+        transform: rotate(0deg) translate(0em, -1.5em);
+    }
+    #row2:hover {
+        transition: all 0.5s;
+        height: 22.5em;
+        transform: rotate(0deg) translate(0em, -1.5em);
+    }
+    #bio {
+        background: #ADE8DC;
+        border-radius: 4px;
+        padding: 3px 0 3px 3px;
+        font-family: 'Russo One', sans-serif;
+        font-size: 1.5em;
+        color: #404041;
+        animation: fadein 0.0s;
+        animation-delay: 0s;
+        animation-fill-mode: forwards;
+        opacity: 1;
+    }
+    #img {
+        animation-delay: 1.75s;
+        transition: all 1s;
+    }
+    #row2point5{
+        transition: all 0.5s;
+        height: 22.5em;
+        transform: rotate(0deg) translate(0em, -1.5em);
+    }
+    #row2point5:hover {
+        transition: all 0.5s;
+        height: 22.5em;
+        transform: rotate(0deg) translate(0em, -1.5em);
+    }
+    #pro {
+        background: #ADE8DC;
+        border-radius: 4px;
+        padding: 3px 0 3px 3px;
+        font-family: 'Russo One', sans-serif;
+        font-size: 1.5em;
+        color: #404041;
+        animation: fadein 0.0s;
+        animation-delay: 0s;
+        animation-fill-mode: forwards;
+        opacity: 1;
+    }
+    #row3 {
+        transition: all 0.5s;
+        height: 29.5em;
+    }
+    #row3:hover {
+        height: 29.5em;
+    }
+    #edu {
+        background: #ADE8DC;
+        border-radius: 4px;
+        padding: 3px 0 3px 3px;
+        font-family: 'Russo One', sans-serif;
+        font-size: 1.5em;
+        color: #404041;
+        animation: fadein 0.0s;
+        animation-delay: 0s;
+        animation-fill-mode: forwards;
+        opacity: 1;
+    }
+    #jobs {
+        background: #ADE8DC;
+        border-radius: 4px;
+        padding: 3px 0 3px 5px;
+        font-family: 'Russo One', sans-serif;
+        font-size: 1.5em;
+        color: #404041;
+        animation: fadein 0.0s;
+        animation-delay: 0s;
+        animation-fill-mode: forwards;
+        opacity: 1;
+    }
+    #skills {
+        background: #ADE8DC;
+        border-radius: 4px;
+        padding: 3px 0 3px 3px;
+        font-family: 'Russo One', sans-serif;
+        font-size: 1.5em;
+        color: #404041;
+        animation: fadein 0.0s;
+        animation-delay: 0s;
+        animation-fill-mode: forwards;
+        opacity: 1;
+    }
+    #ref {
+        background: #ADE8DC;
+        border-radius: 4px;
+        padding: 3px 0 3px 3px;
+        font-family: 'Russo One', sans-serif;
+        font-size: 1.5em;
+        color: #404041;
+        animation: fadein 0.0s;
+        animation-delay: 0s;
+        animation-fill-mode: forwards;
+        opacity: 1;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 767px) {
+    h1 {
+        animation: fadein 0.0s;
+        animation-delay: 0s;
+        animation-fill-mode: forwards;
+        opacity: 1;
+    }
+    nav {
+        animation: fadein 0.0s;
+        animation-delay: 0s;
+        animation-fill-mode: forwards;
+        opacity: 1;
+    }
+    #title {
+        padding: 3px 0 3px 1em;
+        animation: fadein 0.0s;
+        animation-delay: 0s;
+        animation-fill-mode: forwards;
+        opacity: 1;
+        transition: all 1s;
+    }
+    p,
+    #right {
         text-align: justify;
     }
-    #bio{
+    #bio {
         margin-top: 1.5em;
         transition: all 1s;
     }
-    #img{
-    transform: scale(0.80);
-    transition: all 1s;
-    animation-delay: 0;
-    opacity: 1;
-    animation: fadein 0.0s;
-    animation-fill-mode: forwards;
-    border: 20px solid #86663F;
-    background: #86663F;
-    border-radius: 4px;
+    #img {
+        transform: scale(0.80);
+        transition: all 1s;
+        animation-delay: 0;
+        opacity: 1;
+        animation: fadein 0.0s;
+        animation-fill-mode: forwards;
+        border: 20px solid #86663F;
+        background: #86663F;
+        border-radius: 4px;
     }
-
-
-#pro{
-    background: #ADE8DC;
-    border-radius: 4px;    
-    font-family: 'Russo One', sans-serif;
-    font-size: 1.5em;
-    color: #404041;
-            animation: fadein 0.0s;
-    animation-delay: 0s;
-    animation-fill-mode: forwards;
-    opacity: 1;
+    #pro {
+        background: #ADE8DC;
+        border-radius: 4px;
+        font-family: 'Russo One', sans-serif;
+        font-size: 1.5em;
+        color: #404041;
+        animation: fadein 0.0s;
+        animation-delay: 0s;
+        animation-fill-mode: forwards;
+        opacity: 1;
     }
-        #row2, #row2point5, #row2:hover, #row2point5:hover, #row3, #row3:hover{
-        transform: rotate(0deg) translate(0em,0em);
+    #row2,
+    #row2point5,
+    #row2:hover,
+    #row2point5:hover,
+    #row3,
+    #row3:hover {
+        transform: rotate(0deg) translate(0em, 0em);
         height: 100%
     }
-
 }
