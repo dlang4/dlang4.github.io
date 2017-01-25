@@ -10,7 +10,7 @@
 //$('header img').attr('src', eval('img' + numRand));
 //
 //light gallery
-$(".ewu").lightGallery({
+$(".packaging").lightGallery({
     selector: 'a'
     , mode: 'lg-rotate'
     , speed: 500

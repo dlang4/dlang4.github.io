@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <title>David Lang - Portfolio</title>
+    <title>David Lang - Portfolio - UNDER CONSTRUCTION</title>
     <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/lg-transitions.min.css">
+    <link rel="stylesheet" href="css/lightgallery.min.css">
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
 </head>
@@ -31,7 +33,7 @@
     </header>
     <article class="grid-container">
         <section class="grid-12">
-            <h3>Gallery</h3>
+            <h3>Contents</h3>
         </section>
     </article>
     <article class="grid-container">
@@ -42,32 +44,18 @@
             an overview of the project.</p>
             <ul id="contents">
                 <li>
-                    <a href="#python">Python Code</a>
+                    <a href="#gis">GIS</a>
                 </li>
                 <li>
-                    <a href="#creation">Data Creation</a>
-                </li>
-                <li>
-                    <a href="#input">Data Input &amp; Editing</a>
-                </li>
-                <li>
-                    <a href="#analysis">Data Analysis</a>
-                </li>
-                <li>
-                    <a href="#design">Map Design</a>
-                </li>
-                <li>
-                    <a href="#coordinate">Coordinate Systems &amp; Datums</a>
-                </li>
-                <li>
-                    <a href="#arcinfo">ArcInfo Workstation Guide</a>
+                    <a href="#design">Design</a>
                 </li>
             </ul>
         </section>
     </article>
+    <main class="gallery">
     <article class="grid-container">
         <section class="grid-12">
-            <h3 id="python">Python Code</h3>
+            <h3 id="gis">GIS Gallery</h3>
         </section>
     </article>
     <article class="grid-container">
@@ -93,5 +81,18 @@
             arcpy.Clip_management(r,"#",newname,poly,0, "ClippingGeometry")</p>
         </section>
     </article>
+        
+        <article class="grid-container">
+        <section class="grid-12">
+           <figure class="packaging">
+               <a href="img/packaging.png"><img src="img/packaging.png" alt=""></a>
+            </figure>
+        </section>
+    </article>
+        
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/lightgallery.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>

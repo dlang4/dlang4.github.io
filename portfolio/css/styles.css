@@ -57,6 +57,12 @@ h3{
     color: #404041;
     margin-top: -0.25em;
 }
+
+img{
+    max-width: 67%;
+    margin: 0 auto;
+    display: block;
+}
 #desc{
     width: 67%;
     float: none;
@@ -93,9 +99,6 @@ h3{
     margin-top: 1em;
 }
 
-img{
-    margin-bottom: 5em;
-}
 figure{
     height: 100;
     
