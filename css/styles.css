@@ -10,6 +10,7 @@ body {
     color: #E6E7E8;
 }
 
+/*
 @keyframes fadein {
     from {
         opacity: 0;
@@ -18,6 +19,7 @@ body {
         opacity: 1;
     }
 }
+*/
 
 header {
     color: #ADE8DC;
@@ -30,7 +32,7 @@ h1 {
     animation: fadein 0.1s;
     animation-delay: 1s;
     animation-fill-mode: forwards;
-    opacity: 0;
+/*    opacity: 0;*/
     text-shadow: 2px 3px #86663F;
 }
 
@@ -43,7 +45,7 @@ nav {
     animation: fadein 0.1s;
     animation-delay: 1.25s;
     animation-fill-mode: forwards;
-    opacity: 0;
+/*    opacity: 0;*/
 }
 
 nav li {
@@ -78,7 +80,7 @@ nav a:active {}
     animation-delay: 1.5s;
     animation-fill-mode: forwards;
     color: #404041;
-    opacity: 0;
+/*    opacity: 0;*/
 }
 
 #bio {
@@ -91,14 +93,14 @@ nav a:active {}
     animation-delay: 1.75s;
     animation-fill-mode: forwards;
     color: #404041;
-    opacity: 0;
+/*    opacity: 0;*/
 }
 
 #img {
     animation: fadein 0.1s;
     animation-delay: 3.25s;
     animation-fill-mode: forwards;
-    opacity: 0;
+/*    opacity: 0;*/
 }
 
 #pro {
@@ -111,7 +113,7 @@ nav a:active {}
     animation-delay: 3s;
     animation-fill-mode: forwards;
     color: #404041;
-    opacity: 0;
+/*    opacity: 0;*/
 }
 
 #edu {
@@ -124,7 +126,7 @@ nav a:active {}
     animation-delay: 2s;
     animation-fill-mode: forwards;
     color: #404041;
-    opacity: 0;
+/*    opacity: 0;*/
 }
 
 #jobs {
@@ -137,7 +139,7 @@ nav a:active {}
     animation-delay: 2.25s;
     animation-fill-mode: forwards;
     color: #404041;
-    opacity: 0;
+/*    opacity: 0;*/
 }
 
 #skills {
@@ -150,7 +152,7 @@ nav a:active {}
     animation-delay: 2.5s;
     animation-fill-mode: forwards;
     color: #404041;
-    opacity: 0;
+/*    opacity: 0;*/
 }
 
 #ref {
@@ -163,7 +165,7 @@ nav a:active {}
     animation-delay: 2.75s;
     animation-fill-mode: forwards;
     color: #404041;
-    opacity: 0;
+/*    opacity: 0;*/
 }
 
 h4 {

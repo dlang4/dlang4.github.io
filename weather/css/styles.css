@@ -5,6 +5,10 @@
     transition: all 2s;
 }
 
+::selection {
+    background: black;
+}
+
 body {
     background: #e6e6e6;
     text-transform: uppercase;
