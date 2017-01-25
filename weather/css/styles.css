@@ -68,8 +68,13 @@ http://www.color-hex.com/color-palette/5361*/
     color: #ffdfba;
 }
 
+
 /*RETURN LINK*/
-a:link, a:visited, a:hover, a:active{
+
+a:link,
+a:visited,
+a:hover,
+a:active {
     text-decoration: none;
     color: #191919;
     background: #e6e6e6;
@@ -77,6 +82,8 @@ a:link, a:visited, a:hover, a:active{
     border: 1px solid #777777;
     text-transform: none;
 }
+
+
 /*BG COLORS*/
 
 
