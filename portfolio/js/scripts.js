@@ -12,16 +12,17 @@
 //light gallery
 $(".flex").lightGallery({
     selector: 'a'
-    , mode: 'lg-rotate'
-    , speed: 500
-    , hideBarsDelay: 2000
-    , download: false
-});
-$(".other").lightGallery({
-    selector: 'a'
     , mode: 'lg-lollipop'
     , speed: 500
     , hideBarsDelay: 2000
     , download: false
+    , thumbnail: true
+});
+$(".other").lightGallery({
+    selector: 'a'
+    , speed: 500
+    , hideBarsDelay: 2000
+    , download: false
+    , thumbnail: true
 });
 console.log('test');
