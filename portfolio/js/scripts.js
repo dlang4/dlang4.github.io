@@ -10,7 +10,7 @@
 //$('header img').attr('src', eval('img' + numRand));
 //
 //light gallery
-$(".packaging").lightGallery({
+$(".flex").lightGallery({
     selector: 'a'
     , mode: 'lg-rotate'
     , speed: 500
@@ -22,7 +22,6 @@ $(".other").lightGallery({
     , mode: 'lg-lollipop'
     , speed: 500
     , hideBarsDelay: 2000
-    , loop: false
     , download: false
 });
-console.log('test')
+console.log('test');

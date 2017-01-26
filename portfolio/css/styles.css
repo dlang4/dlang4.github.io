@@ -59,10 +59,15 @@ h3{
 }
 
 img{
-    max-width: 67%;
+    max-width: 72%;
     margin: 0 auto;
     display: block;
 }
+
+.flex{
+    display: flex;
+}
+
 #desc{
     width: 67%;
     float: none;
@@ -99,32 +104,5 @@ img{
     margin-top: 1em;
 }
 
-figure{
-    height: 100;
-    
-}
-
-figcaption{
-    padding: 0 0.5em 0 0.5em;
-    opacity: 0;
-    transition: opacity 1s;
-    background: #404041;
-    margin-top: -10em;
-    padding: 3px 0 3px 2em;
-    margin-bottom: 5em;
-    font-size: 1.5em;
-    
-}
-figure:hover figcaption, figure:focus figcaption{
-      opacity: 0.95;
-  transition: opacity 1s;
-}
-
 @media (min-width: 1px) and (max-width: 767px)  {
-    
-    figcaption{
-        font-size: 1em;
-        margin-bottom: 0em;
-        margin-top: -10em;
-        padding: 3px;
     }
