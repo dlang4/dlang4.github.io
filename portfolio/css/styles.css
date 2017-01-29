@@ -91,17 +91,3 @@ img{
     font-family: 'Anonymous Pro';
     font-size: 0.8em;
 }
-
-#links{
-    font-size: 1.25em;
-    width: 67%;
-    margin: auto;
-    margin-bottom: 2em;
-}
-
-#arcinfo{
-    margin-top: 1em;
-}
-
-@media (min-width: 1px) and (max-width: 767px)  {
-    }

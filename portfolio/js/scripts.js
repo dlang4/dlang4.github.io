@@ -26,3 +26,5 @@ $(".other").lightGallery({
     , thumbnail: true
 });
 console.log('test');
+
+$('#captions').lightGallery(); 

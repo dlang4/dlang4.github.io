@@ -30,7 +30,7 @@ var getWeather = function (location) {
             $('.geo .sun2').text(weather.sunset);
             $('.geo .bye').text('Have a nice day!');
             $('.geo .updated').text(weather.updated);
-            $('.geo button').text('Update the weather');
+            $('.geo button').text('Update');
             //change background color
             if (weather.temp < 20) {
                 $('body').addClass('one');
