@@ -1,387 +1,52 @@
-@import url(https://fonts.googleapis.com/css?family=Cuprum:400,700);
-@import url(https://fonts.googleapis.com/css?family=Russo+One);
-::selection {
-    background: #86663F;
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:200,400,500,800');
+@font-face {
+    font-family: "Paprika Regular";
+    src: url("fonts/Paprika.otf");
 }
+
+
 
 body {
     background: #404041;
-    font-family: 'Cuprum', sans-serif;
+font-family: 'Barlow Semi Condensed', sans-serif;
     color: #E6E7E8;
+text-align: center;
 }
 
-/*
-@keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-*/
-
-header {
-    color: #ADE8DC;
-    text-align: center;
-}
 
 h1 {
-    font-size: 2em;
-    font-family: 'Russo One', sans-serif;
-    animation: fadein 0.1s;
-    animation-delay: 1s;
-    animation-fill-mode: forwards;
-/*    opacity: 0;*/
-    text-shadow: 2px 3px #86663F;
+    font-size: 4em;
+/*    text-shadow: 2px 3px #86663F;*/
+    font-weight: 800;
 }
 
-h3 {
-    text-shadow: 1px 1px #86663F;
-}
 
-nav {
-    margin-right: 2.5em;
-    animation: fadein 0.1s;
-    animation-delay: 1.25s;
-    animation-fill-mode: forwards;
-/*    opacity: 0;*/
-}
-
-nav li {
-    list-style: none;
-    display: inline-block;
-    float: center;
-}
-
-nav a:link,
-nav a:visited {
+a:link, a:visited{
     text-decoration: none;
-    padding: 3px 3px 0 3px;
-    transition: all 1s;
-    margin: 1em;
-    color: #E6E7E8;
+    color: white;
+     font-weight: 500;
 }
 
-nav a:hover {
+a:hover {
     color: #BBB9A4;
 }
 
-nav a:active {}
-
-#title {
-    margin-top: -0.25em;
-    background: #ADE8DC;
-    border-radius: 4px;
-    padding: 3px 0 3px 2em;
-    font-family: 'Russo One', sans-serif;
-    font-size: 1.5em;
-    animation: fadein 0.1s;
-    animation-delay: 1.5s;
-    animation-fill-mode: forwards;
-    color: #404041;
-/*    opacity: 0;*/
-}
-
-#bio {
-    background: #ADE8DC;
-    border-radius: 4px;
-    padding: 3px 0 3px 2em;
-    font-family: 'Russo One', sans-serif;
-    font-size: 1.75em;
-    animation: fadein 0.1s;
-    animation-delay: 1.75s;
-    animation-fill-mode: forwards;
-    color: #404041;
-/*    opacity: 0;*/
-}
 
 #img {
-    animation: fadein 0.1s;
-    animation-delay: 3.25s;
-    animation-fill-mode: forwards;
-/*    opacity: 0;*/
-}
 
-#pro {
-    background: #ADE8DC;
-    border-radius: 4px;
-    padding: 3px 0 3px 2em;
-    font-family: 'Russo One', sans-serif;
-    font-size: 1.5em;
-    animation: fadein 0.1s;
-    animation-delay: 3s;
-    animation-fill-mode: forwards;
-    color: #404041;
-/*    opacity: 0;*/
 }
-
-#edu {
-    background: #ADE8DC;
-    border-radius: 4px;
-    padding: 3px 0 3px 2em;
-    font-family: 'Russo One', sans-serif;
-    font-size: 1.5em;
-    animation: fadein 0.1s;
-    animation-delay: 2s;
-    animation-fill-mode: forwards;
-    color: #404041;
-/*    opacity: 0;*/
-}
-
-#jobs {
-    background: #ADE8DC;
-    border-radius: 4px;
-    padding: 3px 0 3px 2em;
-    font-family: 'Russo One', sans-serif;
-    font-size: 1.5em;
-    animation: fadein 0.1s;
-    animation-delay: 2.25s;
-    animation-fill-mode: forwards;
-    color: #404041;
-/*    opacity: 0;*/
-}
-
-#skills {
-    background: #ADE8DC;
-    border-radius: 4px;
-    padding: 3px 0 3px 2em;
-    font-family: 'Russo One', sans-serif;
-    font-size: 1.5em;
-    animation: fadein 0.1s;
-    animation-delay: 2.5s;
-    animation-fill-mode: forwards;
-    color: #404041;
-/*    opacity: 0;*/
-}
-
-#ref {
-    background: #ADE8DC;
-    border-radius: 4px;
-    padding: 3px 0 3px 2em;
-    font-family: 'Russo One', sans-serif;
-    font-size: 1.5em;
-    animation: fadein 0.1s;
-    animation-delay: 2.75s;
-    animation-fill-mode: forwards;
-    color: #404041;
-/*    opacity: 0;*/
-}
-
-h4 {
+h4{
     font-size: 1.1em;
+    width: 60%;
+    margin: auto;
+    text-align: justify;
+    font-weight: 200;
 }
 
-#row2 {
-    transition: all 0.5s;
-    height: 4.5em;
-    overflow: hidden;
-    transform: rotate(-90deg) translate(-8.25em, -9.75em);
-}
 
-#row2:hover {
-    transition: all 0.5s;
-    height: 18em;
-    transform: translateY(0em);
-}
-
-#row2point5 {
-    transition: all 0.5s;
-    height: 4.5em;
-    overflow: hidden;
-    transform: rotate(90deg) translate(8.25em, -9.5em);
-}
-
-#row2point5:hover {
-    transition: all 0.5s;
-    height: 16em;
-    transform: translateY(0em);
-}
-
-#right {
-    text-align: right;
-}
-
-#row3 {
-    transition: all 0.5s;
-    height: 4em;
-    overflow: hidden;
-}
-
-#row3:hover {
-    transition: all 1s;
-    height: 29.5em;
-}
-
-@media (min-width: 768px) and (max-width: 1199px) {
-    #title {
-        animation-delay: 1.5s;
-        transition: all 1s;
-    }
-    #row2 {
-        transition: all 0.5s;
-        height: 22.5em;
-        overflow: hidden;
-        transform: rotate(0deg) translate(0em, -1.5em);
-    }
-    #row2:hover {
-        transition: all 0.5s;
-        height: 22.5em;
-        transform: rotate(0deg) translate(0em, -1.5em);
-    }
-    #bio {
-        background: #ADE8DC;
-        border-radius: 4px;
-        padding: 3px 0 3px 3px;
-        font-family: 'Russo One', sans-serif;
-        font-size: 1.5em;
-        color: #404041;
-        animation: fadein 0.0s;
-        animation-delay: 0s;
-        animation-fill-mode: forwards;
-        opacity: 1;
-    }
-    #img {
-        animation-delay: 1.75s;
-        transition: all 1s;
-    }
-    #row2point5{
-        transition: all 0.5s;
-        height: 22.5em;
-        transform: rotate(0deg) translate(0em, -1.5em);
-    }
-    #row2point5:hover {
-        transition: all 0.5s;
-        height: 22.5em;
-        transform: rotate(0deg) translate(0em, -1.5em);
-    }
-    #pro {
-        background: #ADE8DC;
-        border-radius: 4px;
-        padding: 3px 0 3px 3px;
-        font-family: 'Russo One', sans-serif;
-        font-size: 1.5em;
-        color: #404041;
-        animation: fadein 0.0s;
-        animation-delay: 0s;
-        animation-fill-mode: forwards;
-        opacity: 1;
-    }
-    #row3 {
-        transition: all 0.5s;
-        height: 29.5em;
-    }
-    #row3:hover {
-        height: 29.5em;
-    }
-    #edu {
-        background: #ADE8DC;
-        border-radius: 4px;
-        padding: 3px 0 3px 3px;
-        font-family: 'Russo One', sans-serif;
-        font-size: 1.5em;
-        color: #404041;
-        animation: fadein 0.0s;
-        animation-delay: 0s;
-        animation-fill-mode: forwards;
-        opacity: 1;
-    }
-    #jobs {
-        background: #ADE8DC;
-        border-radius: 4px;
-        padding: 3px 0 3px 5px;
-        font-family: 'Russo One', sans-serif;
-        font-size: 1.5em;
-        color: #404041;
-        animation: fadein 0.0s;
-        animation-delay: 0s;
-        animation-fill-mode: forwards;
-        opacity: 1;
-    }
-    #skills {
-        background: #ADE8DC;
-        border-radius: 4px;
-        padding: 3px 0 3px 3px;
-        font-family: 'Russo One', sans-serif;
-        font-size: 1.5em;
-        color: #404041;
-        animation: fadein 0.0s;
-        animation-delay: 0s;
-        animation-fill-mode: forwards;
-        opacity: 1;
-    }
-    #ref {
-        background: #ADE8DC;
-        border-radius: 4px;
-        padding: 3px 0 3px 3px;
-        font-family: 'Russo One', sans-serif;
-        font-size: 1.5em;
-        color: #404041;
-        animation: fadein 0.0s;
-        animation-delay: 0s;
-        animation-fill-mode: forwards;
-        opacity: 1;
-    }
-}
 
 @media (min-width: 1px) and (max-width: 767px) {
     h1 {
-        animation: fadein 0.0s;
-        animation-delay: 0s;
-        animation-fill-mode: forwards;
-        opacity: 1;
-    }
-    nav {
-        animation: fadein 0.0s;
-        animation-delay: 0s;
-        animation-fill-mode: forwards;
-        opacity: 1;
-    }
-    #title {
-        padding: 3px 0 3px 1em;
-        animation: fadein 0.0s;
-        animation-delay: 0s;
-        animation-fill-mode: forwards;
-        opacity: 1;
-        transition: all 1s;
-    }
-    p,
-    #right {
-        text-align: justify;
-    }
-    #bio {
-        margin-top: 1.5em;
-        transition: all 1s;
-    }
-    #img {
-        transform: scale(0.80);
-        transition: all 1s;
-        animation-delay: 0;
-        opacity: 1;
-        animation: fadein 0.0s;
-        animation-fill-mode: forwards;
-        border: 20px solid #86663F;
-        background: #86663F;
-        border-radius: 4px;
-    }
-    #pro {
-        background: #ADE8DC;
-        border-radius: 4px;
-        font-family: 'Russo One', sans-serif;
-        font-size: 1.5em;
-        color: #404041;
-        animation: fadein 0.0s;
-        animation-delay: 0s;
-        animation-fill-mode: forwards;
-        opacity: 1;
-    }
-    #row2,
-    #row2point5,
-    #row2:hover,
-    #row2point5:hover,
-    #row3,
-    #row3:hover {
-        transform: rotate(0deg) translate(0em, 0em);
-        height: 100%
+
     }
 }
