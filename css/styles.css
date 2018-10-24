@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:200,400,500,800');
+/*
 @font-face {
     font-family: "Paprika Regular";
     src: url("fonts/Paprika.otf");
 }
+*/
 
 
 
 body {
-    background: white;
+    background: #FAFAFA;
 font-family: 'Barlow Semi Condensed', sans-serif;
-    color: black;
+    color: #191919;
 text-align: center;
 }
 
@@ -24,28 +26,44 @@ a:link, a:visited{
     color: black;
      font-weight: 500;
     font-size: 1.5em;
+    transition: color 4s;
 }
 
-a:hover {
-    color: #BBB9A4;
+a:hover{
+        transition: color 0.5s;
 }
 
-
-#img {
-
+#behance:hover {
+    color: blue;
 }
-h4{
+#instagram:hover {
+    color: goldenrod;
+}
+#linkedin:hover {
+    color: mediumblue;
+}
+#redbubble:hover {
+    color: red;
+}
+#can:hover {
+    color: deepskyblue;
+}
+
+p{
+    padding-top: 28px;
     font-size: 1.1em;
-    width: 60%;
+    width: 40%;
     margin: auto;
     text-align: justify;
     font-weight: 200;
+            transition: width 0.5s;
 }
 
 
 
 @media (min-width: 1px) and (max-width: 767px) {
-    h1 {
-
+    p {
+        width: 80%;
+        transition: width 0.5s;
     }
 }
