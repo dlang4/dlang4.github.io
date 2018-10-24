@@ -50,7 +50,7 @@ a:hover{
 }
 
 p{
-    padding-top: 28px;
+    padding: 28px 0px 28px 0px;
     font-size: 1.1em;
     width: 40%;
     margin: auto;
