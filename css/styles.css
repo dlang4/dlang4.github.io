@@ -6,7 +6,7 @@
 }
 */
 body {
-    background: #FAFAFA;
+    background-image: linear-gradient(to right, #F0F0F0, #C8C8C8);
     font-family: 'Barlow Semi Condensed', sans-serif;
     color: #191919;
     text-align: center;
