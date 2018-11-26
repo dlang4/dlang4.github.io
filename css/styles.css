@@ -48,8 +48,19 @@ p{
     font-weight: 200;
     transition: width 0.5s;
 }
-@media (min-width: 1px) and (max-width: 767px) {
-    p {
+
+#vimeo{
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 28px;
+    transition: width 0.5s;
+}
+@media (min-width: 1px) and (max-width: 767px){
+    p{
+        width: 80%;
+        transition: width 0.5s;
+    }
+    #vimeo{
         width: 80%;
         transition: width 0.5s;
     }
