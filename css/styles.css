@@ -27,6 +27,9 @@ a:hover{
 #behance:hover {
     color: blue;
 }
+#vimeo:hover {
+    color: deepskyblue;
+}
 #instagram:hover {
     color: goldenrod;
 }
@@ -37,7 +40,7 @@ a:hover{
     color: red;
 }
 #can:hover {
-    color: deepskyblue;
+    color: gray;
 }
 p{
     padding: 28px 0px 28px 0px;
