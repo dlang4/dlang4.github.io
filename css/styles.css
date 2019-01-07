@@ -24,22 +24,22 @@ a:link, a:visited{
 a:hover{
     transition: color 0.5s;
 }
-#behance:hover {
+#behance:hover{
     color: blue;
 }
-#vimeo:hover {
+#vimeo:hover{
     color: deepskyblue;
 }
-#instagram:hover {
-    color: goldenrod;
-}
-#linkedin:hover {
+#linkedin:hover{
     color: mediumblue;
 }
-#redbubble:hover {
+#instagram:hover{
+    color: goldenrod;
+}
+#redbubble:hover{
     color: red;
 }
-#can:hover {
+#can:hover{
     color: gray;
 }
 p{
@@ -51,19 +51,14 @@ p{
     font-weight: 200;
     transition: width 0.5s;
 }
-
-#vimeo{
+#video{
     width: 40%;
     margin: 0 auto;
     padding-top: 28px;
     transition: width 0.5s;
 }
-@media (min-width: 1px) and (max-width: 767px){
-    p{
-        width: 80%;
-        transition: width 0.5s;
-    }
-    #vimeo{
+@media (min-width: 1px) and (max-width: 900px){
+    p, #video{
         width: 80%;
         transition: width 0.5s;
     }
