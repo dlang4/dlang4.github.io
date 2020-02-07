@@ -25,22 +25,13 @@ a:hover{
     transition: color 0.5s;
 }
 #behance:hover{
-    color: blue;
-}
-#vimeo:hover{
-    color: deepskyblue;
+    color: #0057ff;
 }
 #linkedin:hover{
-    color: mediumblue;
+    color: #283e4a;
 }
-#instagram:hover{
-    color: goldenrod;
-}
-#redbubble:hover{
-    color: red;
-}
-#can:hover{
-    color: gray;
+#resume:hover{
+    color: #614e6e;
 }
 p{
     padding: 28px 0px 28px 0px;
