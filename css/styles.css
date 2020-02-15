@@ -1,23 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:200,400,500,800');
-/*
-@font-face {
-    font-family: "Paprika Regular";
-    src: url("fonts/Paprika.otf");
-}
-*/
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:200|Raleway:800&display=swap');
+
 body {
     background-image: linear-gradient(to right, #0D0D0D, #262626 50%, #0D0D0D);
-    font-family: 'Barlow Semi Condensed', sans-serif;
+
     color: #e6e6e6;
     text-align: center;
 }
 h1 {
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
 }
 a:link, a:visited{
     text-decoration: none;
     color: #e6e6e6;
-    font-weight: 500;
     font-size: 1.5em;
     transition: color 4s;
 }
@@ -34,6 +29,7 @@ a:hover{
     color: #614e6e;
 }
 p{
+    font-family: 'Barlow Semi Condensed', sans-serif;
     padding: 28px 0px 28px 0px;
     font-size: 1.1em;
     width: 40%;
