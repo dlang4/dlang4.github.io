@@ -2,13 +2,20 @@
 
 body {
     background-image: linear-gradient(to right, #0D0D0D, #262626 50%, #0D0D0D);
-
     color: #e6e6e6;
     text-align: center;
 }
 h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+}
+li{
+    margin: 4px 8px;
+    display:inline-block;
 }
 a:link, a:visited{
     text-decoration: none;
@@ -30,8 +37,8 @@ a:hover{
 }
 p{
     font-family: 'Barlow Semi Condensed', sans-serif;
-    padding: 28px 0px 28px 0px;
-    font-size: 1.1em;
+    padding-top: 30px;
+    font-size: 1.25em;
     width: 40%;
     margin: auto;
     text-align: justify;
@@ -41,7 +48,7 @@ p{
 #video{
     width: 40%;
     margin: 0 auto;
-    padding-top: 28px;
+    padding-top: 10px;
     transition: width 0.5s;
 }
 @media (min-width: 1px) and (max-width: 900px){
