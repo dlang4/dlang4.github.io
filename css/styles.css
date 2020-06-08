@@ -9,6 +9,7 @@ h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     margin-bottom: 5px!important;
+    font-size: 3em!important;
 }
 ul{
     list-style: none;
@@ -58,5 +59,8 @@ p{
         width: 80%;
         font-size: 1.2em;
         transition: all 0.5s;
+    }
+    h1{
+        font-size: 2em!important;
     }
 }
