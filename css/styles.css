@@ -10,6 +10,7 @@ h1 {
     font-weight: 800;
     margin-bottom: 5px!important;
     font-size: 3em!important;
+    transition: all 0.5s;
 }
 ul{
     list-style: none;
@@ -46,13 +47,13 @@ p{
     margin: auto;
     text-align: justify;
     font-weight: 200;
-    transition: width 0.5s;
+    transition: all 0.5s;
 }
 #video{
     width: 40%;
     margin: 0 auto;
     padding-top: 10px;
-    transition: width 0.5s;
+    transition: all 0.5s;
 }
 @media (min-width: 1px) and (max-width: 900px){
     p, #video{
@@ -62,5 +63,6 @@ p{
     }
     h1{
         font-size: 2em!important;
+        transition: all 0.5s;
     }
 }
