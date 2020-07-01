@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:200|Raleway:800&display=swap');
 
+::selection {
+  background: #614e6e;
+}
+
 body {
     background-image: linear-gradient(to right, #0D0D0D, #262626 50%, #0D0D0D);
     color: #e6e6e6;
