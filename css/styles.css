@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:200|Raleway:800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200&family=Raleway:wght@400;800&display=swap');
 
 ::selection {
   background: #614e6e;
@@ -8,6 +8,7 @@ body {
     background-image: linear-gradient(to right, #0D0D0D, #262626 50%, #0D0D0D);
     color: #e6e6e6;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 h1 {
     font-family: 'Raleway', sans-serif;
@@ -71,5 +72,10 @@ p{
     h1{
         font-size: 2em!important;
         transition: all 0.5s;
+    }
+    #menu{
+        width: 50%;
+        text-align: center;
+            margin: auto;
     }
 }
