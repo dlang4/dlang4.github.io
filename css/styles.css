@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200&family=Raleway:wght@400;800&display=swap');
 
 ::selection {
-  background: #614e6e;
+    background: #614e6e;
 }
 
 body {
@@ -10,44 +10,54 @@ body {
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
+
 h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
-    margin-bottom: 5px!important;
-    font-size: 3em!important;
+    margin-bottom: 5px !important;
+    font-size: 3em !important;
     transition: all 0.5s;
 }
-ul{
+
+ul {
     list-style: none;
     padding: 0px;
     margin-top: 0px;
 }
-li{
+
+li {
     margin: 4px 8px;
-    display:inline-block;
+    display: inline-block;
 }
-a:link, a:visited{
+
+a:link, a:visited {
     text-decoration: none;
     color: #e6e6e6;
     font-size: 1.5em;
     transition: color 4s;
 }
-a:hover{
+
+a:hover {
     transition: color 0.5s;
 }
-#behance:hover{
+
+#behance:hover {
     color: #0057ff;
 }
-#linkedin:hover{
+
+#linkedin:hover {
     color: #283e4a;
 }
-#unsplash:hover{
+
+#unsplash:hover {
     color: #346100;
 }
-#resume:hover{
+
+#resume:hover {
     color: #614e6e;
 }
-p{
+
+p {
     font-family: 'Barlow Semi Condensed', sans-serif;
     padding-top: 30px;
     font-size: 1.25em;
@@ -57,25 +67,30 @@ p{
     font-weight: 200;
     transition: all 0.5s;
 }
-#video{
+
+#video {
     width: 40%;
     margin: 0 auto;
     padding-top: 10px;
     transition: all 0.5s;
 }
-@media (min-width: 1px) and (max-width: 900px){
-    p, #video{
+
+@media (min-width: 1px) and (max-width: 900px) {
+
+    p, #video {
         width: 80%;
         font-size: 1.2em;
         transition: all 0.5s;
     }
-    h1{
-        font-size: 2em!important;
+
+    h1 {
+        font-size: 2em !important;
         transition: all 0.5s;
     }
-    #menu{
-/*        width: 50%;*/
+
+    #menu {
+        width: 80%;
         text-align: center;
-            margin: auto;
+        margin: auto;
     }
 }
