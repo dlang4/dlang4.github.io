@@ -1,23 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200&family=Raleway:wght@400;800&display=swap');*/
-
-@font-face{
-    font-family: 'Raleway', sans-serif;
-    src: url(fonts/Raleway-Regular.ttf);
-    font-weight: 400;
-}
-
-@font-face{
-    font-family: 'Raleway', sans-serif;
-    src: url(fonts/Raleway-ExtraBold.ttf);
-    font-weight: 800;
-    src:
-}
-
-@font-face{
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    src: url(fonts/BarlowSemiCondensed-ExtraLight.ttf);
-    font-weight: 200;
-}
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200&family=Raleway:wght@400;800&display=swap');
 
 ::selection {
     background: #614e6e;
