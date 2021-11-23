@@ -56,22 +56,54 @@ a:hover {
     color: #614e6e;
 }
 
+#video {
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px 0px 30px 0px;
+    transition: all 0.5s;
+}
+
 p {
     font-family: 'Barlow Semi Condensed', sans-serif;
-    padding-top: 30px;
     font-size: 1.25em;
     width: 40%;
     margin: auto;
     text-align: justify;
     font-weight: 200;
     transition: all 0.5s;
+    padding-bottom: 30px;
 }
 
-#video {
-    width: 40%;
-    margin: 0 auto;
-    padding-top: 10px;
-    transition: all 0.5s;
+h2 {
+    font-size: 2em;
+    padding-top: 20px;
+    margin-block-start: 0em;
+    margin-block-end: 0.33em;
+}
+
+.dark {
+    color: black;
+}
+
+#sixteen {
+    background-image: linear-gradient(to right, #313131, #616161 50%, #313131);
+}
+
+#eighteen {
+    background-image: linear-gradient(to right, #616161, #919191 50%, #616161);
+
+}
+
+#nineteen {
+    background-image: linear-gradient(to right, #919191, #c1c1c1 50%, #919191);
+}
+
+#twenty {
+    background-image: linear-gradient(to right, #c1c1c1, #f1f1f1 50%, #c1c1c1);
+}
+
+#beyond {
+    background-image: linear-gradient(to right, #010101, #1a151b 50%, #010101);
 }
 
 @media (min-width: 1px) and (max-width: 900px) {
