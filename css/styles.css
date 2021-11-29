@@ -77,8 +77,8 @@ p {
 
 h2 {
     font-size: 2em;
-        width: 40%;
-        margin: auto;
+    width: 40%;
+    margin: auto;
     padding-top: 20px;
     text-align: right;
     margin-block-start: 0em;
@@ -128,7 +128,6 @@ h2 {
 
     #menu {
         width: 60%;
-/*        text-align: center;*/
         margin: auto;
     }
 }
