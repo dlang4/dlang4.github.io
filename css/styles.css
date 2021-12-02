@@ -106,7 +106,7 @@ h2 {
 }
 
 #beyond {
-    background-image: linear-gradient(to right, #010101, #1a151b 50%, #010101);
+    background-image: linear-gradient(to right, #352a3c, #614e6e 50%, #352a3c);
 }
 
 @media (min-width: 1px) and (max-width: 900px) {
