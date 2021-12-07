@@ -90,24 +90,26 @@ h2 {
 }
 
 #sixteen {
-    background-image: linear-gradient(to right, #616161, #919191 50%, #616161);
-}
-
-#eighteen {
     background-image: linear-gradient(to right, #919191, #c1c1c1 50%, #919191);
 }
 
-#nineteen {
+#eighteen {
     background-image: linear-gradient(to right, #c1c1c1, #f1f1f1 50%, #c1c1c1);
 }
 
-#twenty {
+#nineteen {
     background-image: linear-gradient(to right, #f1f1f1, #ffffff 50%, #f1f1f1);
 }
 
+#twenty {
+    background-image: linear-gradient(to right, #614e6e, #846A95 50%, #614e6e);
+}
+
+/*
 #beyond {
     background-image: linear-gradient(to right, #352a3c, #614e6e 50%, #352a3c);
 }
+*/
 
 @media (min-width: 1px) and (max-width: 900px) {
 
