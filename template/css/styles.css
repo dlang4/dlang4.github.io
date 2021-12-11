@@ -1,0 +1,38 @@
+img {
+    width: 40%;
+    padding: 15px 0px;
+    transition: all 0.5s;
+}
+
+h2 {
+    text-align: center;
+}
+
+#one {
+    background: red;
+}
+
+#two {
+    background: orange;
+}
+
+#three {
+    background: yellow;
+}
+
+#four {
+    background: green;
+}
+
+#five {
+    background: blue;
+}
+
+@media (min-width: 1px) and (max-width: 900px) {
+
+    img {
+        width: 80%;
+        transition: all 0.5s;
+    }
+
+}
