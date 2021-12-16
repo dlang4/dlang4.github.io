@@ -9,23 +9,23 @@ h2 {
 }
 
 #one {
-    background: red;
+    background-image: linear-gradient(to right, #010101, #c1c1c1 50%, #010101);
 }
 
 #two {
-    background: orange;
+    background-image: linear-gradient(to right, #010101, #f1f1f1 50%, #010101);
 }
 
 #three {
-    background: yellow;
+    background-image: linear-gradient(to right, #010101, #c1c1c1 50%, #010101);
 }
 
 #four {
-    background: green;
+    background-image: linear-gradient(to right, #010101, #f1f1f1 50%, #010101);
 }
 
 #five {
-    background: blue;
+    background-image: linear-gradient(to right, #010101, #c1c1c1 50%, #010101);
 }
 
 @media (min-width: 1px) and (max-width: 900px) {
