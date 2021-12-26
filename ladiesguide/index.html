@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>David Lang Dot Design</title>
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+
+
+<body>
+
+    <div id="tray">
+        <img src="img/ladies-guide-header.jpg" alt="The Ladies Guide to Dude Cinema logotype.">
+        <img src="img/with-alex-bec.jpg" alt="with Alex Jae and Bec Charlwood banner.">
+        <input type="text" id="search" onkeyup="myFunction()" placeholder="Search">
+            <!--
+        <div class="controls">
+            <div class="checkbox-group">
+                <div class="checkbox">
+                    <label class="checkbox-label">Recommended?</label>
+                    <input type="checkbox" value=".rec" />
+                </div>
+
+                <div class="checkbox">
+                    <label class="checkbox-label">Horny Movie?</label>
+                    <input type="checkbox" value=".horn" />
+                </div>
+
+                <div class="checkbox">
+                    <label class="checkbox-label">Date Movie?</label>
+                    <input type="checkbox" value=".date" />
+                </div>
+                <div class="checkbox">
+                    <label class="checkbox-label">Exclude Patreon?</label>
+                    <input type="checkbox" value=".main" />
+                </div>
+            </div>
+        </div>
+-->
+
+        <button onclick="myFunction()">Click Me</button>
+
+        
+        <div class="container">
+            <div class="mix rec horn date pat">
+                <h2>1 Example movie title</h2>
+                <div class="ratings">
+                    <h6>Alex: <span class="red">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h6>
+                    <h6>Bec: <span class="red">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h6>
+                    <h6>Guest 1: <span class="red">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h6>
+                    <h6>Guest 2: <span class="red">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h6>
+                </div>
+                <div class="ratings">
+                    <h6>Horny Movie? <span class="red">Yep!</span></h6>
+                    <h6>Date Movie? <span class="red">Yep!</span></h6>
+                </div>
+            </div>
+            <div class="mix rec date main">
+                <h2>2 Example movie title</h2>
+                <div class="ratings">
+                    <h6>Alex: <span class="blu">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h6>
+                    <h6>Bec: <span class="blu">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h6>
+                    <h6>Guest 1: <span class="blu">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h6>
+                </div>
+                <div class="ratings">
+                    <h6>Horny Movie? <span class="blu">Nope!</span></h6>
+                    <h6>Date Movie? <span class="blu">Yep!</span></h6>
+                </div>
+            </div>
+
+            <div class="mix rec main">
+                <h2>3 Example movie title</h2>
+                <div class="ratings">
+                    <h6>Alex: <span class="blu">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h6>
+                    <h6>Bec: <span class="blu">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h6>
+                </div>
+                <div class="ratings">
+                    <h6>Horny Movie? <span class="blu">Yep!</span></h6>
+                    <h6>Date Movie? <span class="blu">Nope!</span></h6>
+                </div>
+            </div>
+            <div class="mix horn date main">
+                <h2>4 Example movie title</h2>
+                <div class="ratings">
+                    <h6>Alex: <span class="blu">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h6>
+                    <h6>Bec: <span class="blu">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h6>
+                </div>
+                <div class="ratings">
+                    <h6>Horny Movie? <span class="blu">Yep!</span></h6>
+                    <h6>Date Movie? <span class="blu">Nope!</span></h6>
+                </div>
+            </div>
+            <div class="mix rec horn date main">
+                <h2>5 Example movie title</h2>
+                <div class="ratings">
+                    <h6>Alex: <span class="blu">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h6>
+                    <h6>Bec: <span class="blu">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h6>
+                </div>
+                <div class="ratings">
+                    <h6>Horny Movie? <span class="blu">Yep!</span></h6>
+                    <h6>Date Movie? <span class="blu">Nope!</span></h6>
+                </div>
+            </div>
+            <div class="mix horn pat">
+                <h2>6 Example movie title</h2>
+                <div class="ratings">
+                    <h6>Alex: <span class="red">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h6>
+                    <h6>Bec: <span class="red">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h6>
+                    <h6>Guest 1: <span class="red">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h6>
+                    <h6>Guest 2: <span class="red">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h6>
+                </div>
+                <div class="ratings">
+                    <h6>Horny Movie? <span class="red">Yep!</span></h6>
+                    <h6>Date Movie? <span class="red">Nope!</span></h6>
+                </div>
+            </div>
+
+            <div class="mix date main">
+                <h2>7 Example movie title</h2>
+                <div class="ratings">
+                    <h6>Alex: <span class="blu">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h6>
+                    <h6>Bec: <span class="blu">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h6>
+                </div>
+                <div class="ratings">
+                    <h6>Horny Movie? <span class="blu">Yep!</span></h6>
+                    <h6>Date Movie? <span class="blu">Nope!</span></h6>
+                </div>
+            </div>
+            <div class="mix rec date pat">
+                <h2>8 Example movie title</h2>
+                <div class="ratings">
+                    <h6>Alex: <span class="red">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h6>
+                    <h6>Bec: <span class="red">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h6>
+                    <h6>Guest 1: <span class="red">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h6>
+                    <h6>Guest 2: <span class="red">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h6>
+                </div>
+                <div class="ratings">
+                    <h6>Horny Movie? <span class="red">Yep!</span></h6>
+                    <h6>Date Movie? <span class="red">Nope!</span></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--    <script src="js/mixitup.js"></script>-->
+<!--    <script src="js/scripts.js"></script>-->
+<script>
+       function myFunction() {
+  var x = document.getElementsByClassName("pat");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+    </script>
+
+<!--
+    
+    <script>
+        var containerEl = document.querySelector('.container');
+        var checkboxGroup = document.querySelector('.checkbox-group');
+        var checkboxes = checkboxGroup.querySelectorAll('input[type="checkbox"]');
+        var mixer = mixitup(containerEl);
+        checkboxGroup.addEventListener('change', function() {
+            var selectors = [];
+            for (var i = 0; i < checkboxes.length; i++) {
+                var checkbox = checkboxes[i];
+                if (checkbox.checked) selectors.push(checkbox.value);
+            }
+            var selectorString = selectors.length > 0 ?
+                selectors.join(',') : // or '.' for AND logic
+                'all';
+            mixer.filter(selectorString);
+        });
+    </script>
+-->
+
+    <h1>DAVID LANG | design</h1>
+    <nav id="menu">
+        <ul>
+            <li><a id="behance" href="https://www.behance.net/davidlangdesign">Portfolio</a></li>
+            <li><a id="linkedin" href="https://www.linkedin.com/in/davidlangdesign/">LinkedIn</a></li>
+            <li><a id="resume" href="/davidLangResumeWeb.pdf">Résumé</a></li>
+            <li><a id="unsplash" href="https://unsplash.com/@davidlangdesign">Unsplash</a></li>
+        </ul>
+    </nav>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <p>David Lang is a graphic designer and marketer in Everett, WA. He currently resides at Fluid Motion LLC, creating marketing material and advertising for multiple boat makes, campaigns, and events. He previously worked at Angel Of The Winds Casino Resort, designing advertising for promotions and events, and overseeing most TVs on property. David is a VCD graduate from Eastern Washington University, having also worked at the EWU Eagle Store, the EWU design lab, and SRTC.</p>
+    </div>
+</body></html>

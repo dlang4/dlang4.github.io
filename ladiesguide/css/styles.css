@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;600&display=swap');
+::selection {
+    background: #CF1C4F;
+}
+
+body {
+    background-image: linear-gradient(to right, #092882, #F4EDE4 50%, #092882);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Teko', sans-serif;
+    margin: 0;
+}
+
+#tray{
+    background-color: rgba(244,237,228,0.7);
+    width: 70%;
+    margin: auto;
+}
+
+img {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.checkbox-group{
+            display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 80%;
+    margin: auto;
+    font-size: 30pt;
+    padding: 15px 0;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+
+}
+
+.mix{
+    width: 90%;
+    background: #F4EDE4;
+      border-style: solid;
+  border-width: 3px;
+     border-color: #092882;
+      border-radius: 30px;
+margin-bottom: 15px;
+        opacity: 100%; !important;
+box-shadow: 0px 0px 10px rgb(0 0 0 / 0);
+        transition: all 0.5s;
+    display: block;
+}
+
+.mix:hover{
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 0.7);
+    transition: all 0.5s;
+}
+
+.pat{
+         border-color: #CF1C4F;
+    margin-left: auto; 
+margin-right: 0;
+}
+
+h2 {
+    font-size: 30pt;
+    margin: auto;
+    padding-top: 5px;
+    margin-bottom: -10px;
+}
+
+.ratings{
+        display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h6{
+    font-size: 26pt;
+    margin: 0 1.5% ;
+}
+
+.blu{
+    color: #092882;
+}
+
+.red{
+    color: #CF1C4F;
+
+}
+
+
+
+
+
+h1 {
+    font-weight: 800;
+    margin-bottom: 10px !important;
+    font-size: 3em !important;
+    transition: all 0.5s;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+li {
+    margin: 4px 8px;
+    display: inline-block;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #e6e6e6;
+    font-size: 1.5em;
+    transition: color 4s;
+}
+
+a:hover {
+    transition: color 0.5s;
+}
+
+#behance:hover {
+    color: #0057ff;
+}
+
+#linkedin:hover {
+    color: #283e4a;
+}
+
+#unsplash:hover {
+    color: #346100;
+}
+
+#resume:hover {
+    color: #614e6e;
+}
+
+
+
+@media (min-width: 1px) and (max-width: 900px) {
+
+
+}
