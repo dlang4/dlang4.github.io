@@ -6,6 +6,7 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>David Lang Dot Design</title>
     <link href="css/styles.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 
@@ -16,32 +17,29 @@
         <img src="img/ladies-guide-header.jpg" alt="The Ladies Guide to Dude Cinema logotype.">
         <img src="img/with-alex-bec.jpg" alt="with Alex Jae and Bec Charlwood banner.">
         <input type="text" id="search" onkeyup="myFunction()" placeholder="Search">
-            <!--
+            
         <div class="controls">
             <div class="checkbox-group">
                 <div class="checkbox">
                     <label class="checkbox-label">Recommended?</label>
-                    <input type="checkbox" value=".rec" />
+                    <input type="checkbox" id="rec" />
                 </div>
 
                 <div class="checkbox">
                     <label class="checkbox-label">Horny Movie?</label>
-                    <input type="checkbox" value=".horn" />
+                    <input type="checkbox" id="horn" />
                 </div>
 
                 <div class="checkbox">
                     <label class="checkbox-label">Date Movie?</label>
-                    <input type="checkbox" value=".date" />
+                    <input type="checkbox" id="date" />
                 </div>
                 <div class="checkbox">
                     <label class="checkbox-label">Exclude Patreon?</label>
-                    <input type="checkbox" value=".main" />
+                    <input type="checkbox" id="main" />
                 </div>
             </div>
         </div>
--->
-
-        <button onclick="myFunction()">Click Me</button>
 
         
         <div class="container">
@@ -148,14 +146,54 @@
 <!--    <script src="js/mixitup.js"></script>-->
 <!--    <script src="js/scripts.js"></script>-->
 <script>
-       function myFunction() {
-  var x = document.getElementsByClassName("pat");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
+//function myFunction(){
+//  var elms = document.getElementsByClassName("pat");
+//
+//  Array.from(elms).forEach((x) => {
+//    if (x.style.display === "none") {
+//      x.style.display = "block";
+//    } else {
+//      x.style.display = "none";
+//    }
+//  })
+//}
+//    
+//    
+//    function myFunction2(){
+//  var elms = document.getElementsByClassName("rec");
+//
+//  Array.from(elms).forEach((x) => {
+//    if (x.style.display === "none") {
+//      x.style.display = "block";
+//    } else {
+//      x.style.display = "none";
+//    }
+//  })
+//}
+//    
+$("input[type='checkbox']").change(function()
+{
+    var list = "";
+    
+    $("input[type='checkbox']").each(function()
+    {
+        if(this.checked)
+		{
+			list = list + '.' + $(this).attr('id');
+		}
+    });
+
+	if(list !=='')
+	{
+		$("div.inditem").hide();
+		$(list).show();
+	}
+	else {
+		$("div.inditem").show();
+	}
+});
+    
+    
     </script>
 
 <!--
@@ -178,17 +216,4 @@
         });
     </script>
 -->
-
-    <h1>DAVID LANG | design</h1>
-    <nav id="menu">
-        <ul>
-            <li><a id="behance" href="https://www.behance.net/davidlangdesign">Portfolio</a></li>
-            <li><a id="linkedin" href="https://www.linkedin.com/in/davidlangdesign/">LinkedIn</a></li>
-            <li><a id="resume" href="/davidLangResumeWeb.pdf">Résumé</a></li>
-            <li><a id="unsplash" href="https://unsplash.com/@davidlangdesign">Unsplash</a></li>
-        </ul>
-    </nav>
-    <script src="https://player.vimeo.com/api/player.js"></script>
-    <p>David Lang is a graphic designer and marketer in Everett, WA. He currently resides at Fluid Motion LLC, creating marketing material and advertising for multiple boat makes, campaigns, and events. He previously worked at Angel Of The Winds Casino Resort, designing advertising for promotions and events, and overseeing most TVs on property. David is a VCD graduate from Eastern Washington University, having also worked at the EWU Eagle Store, the EWU design lab, and SRTC.</p>
-    </div>
 </body></html>
