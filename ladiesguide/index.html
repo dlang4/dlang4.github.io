@@ -6,7 +6,8 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>David Lang Dot Design</title>
     <link href="css/styles.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src='js/jquery-3.6.0.min.js'></script>
+<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
 </head>
 
 
@@ -16,8 +17,9 @@
     <div id="tray">
         <img src="img/ladies-guide-header.jpg" alt="The Ladies Guide to Dude Cinema logotype.">
         <img src="img/with-alex-bec.jpg" alt="with Alex Jae and Bec Charlwood banner.">
-        <input type="text" id="search" onkeyup="myFunction()" placeholder="Search">
+<!--        <input type="text" id="search" onkeyup="myFunction()" placeholder="Search">-->
             
+<!--
         <div class="controls">
             <div class="checkbox-group">
                 <div class="checkbox">
@@ -40,7 +42,31 @@
                 </div>
             </div>
         </div>
-
+-->
+        
+<!--
+            <div class="checkbox-group">
+                <div class="checkbox">
+                    <p class="checkbox-label" id="rec">Recommended?</p>
+                </div>
+                <div class="checkbox">
+                    <p class="checkbox-label" id="horn">Horny Movie?</p>
+                </div>
+                <div class="checkbox">
+                    <p class="checkbox-label" id="date">Date Movie?</p>
+                </div>
+                <div class="checkbox">
+                    <p class="checkbox-label" id="pat">Patreon?</p>
+                </div>
+                 </div>
+-->
+        
+        <select id="checkbox-group" multiple="multiple">
+    <option value="rec">Rec</option>
+    <option value="horn">Horn</option>
+    <option value="date">Date</option>
+    <option value="pat">Patreon</option>
+</select>
         
         <div class="container">
             <div class="mix rec horn date pat">
@@ -146,74 +172,13 @@
 <!--    <script src="js/mixitup.js"></script>-->
 <!--    <script src="js/scripts.js"></script>-->
 <script>
-//function myFunction(){
-//  var elms = document.getElementsByClassName("pat");
-//
-//  Array.from(elms).forEach((x) => {
-//    if (x.style.display === "none") {
-//      x.style.display = "block";
-//    } else {
-//      x.style.display = "none";
-//    }
-//  })
-//}
-//    
-//    
-//    function myFunction2(){
-//  var elms = document.getElementsByClassName("rec");
-//
-//  Array.from(elms).forEach((x) => {
-//    if (x.style.display === "none") {
-//      x.style.display = "block";
-//    } else {
-//      x.style.display = "none";
-//    }
-//  })
-//}
-//    
-$("input[type='checkbox']").change(function()
-{
-    var list = "";
-    
-    $("input[type='checkbox']").each(function()
-    {
-        if(this.checked)
-		{
-			list = list + '.' + $(this).attr('id');
-		}
-    });
-
-	if(list !=='')
-	{
-		$("div.inditem").hide();
-		$(list).show();
-	}
-	else {
-		$("div.inditem").show();
-	}
+$('#checkbox-group').on('change', function () {
+    var number = $(this).val();
+    var classNames = '.' + number.join('.');
+    $(".mix").hide().filter(classNames).show();
 });
     
     
     </script>
 
-<!--
-    
-    <script>
-        var containerEl = document.querySelector('.container');
-        var checkboxGroup = document.querySelector('.checkbox-group');
-        var checkboxes = checkboxGroup.querySelectorAll('input[type="checkbox"]');
-        var mixer = mixitup(containerEl);
-        checkboxGroup.addEventListener('change', function() {
-            var selectors = [];
-            for (var i = 0; i < checkboxes.length; i++) {
-                var checkbox = checkboxes[i];
-                if (checkbox.checked) selectors.push(checkbox.value);
-            }
-            var selectorString = selectors.length > 0 ?
-                selectors.join(',') : // or '.' for AND logic
-                'all';
-            mixer.filter(selectorString);
-        });
-    </script>
--->
 </body></html>
