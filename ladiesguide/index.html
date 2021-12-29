@@ -17,57 +17,17 @@
     <div id="tray">
         <img src="img/ladies-guide-header.jpg" alt="The Ladies Guide to Dude Cinema logotype.">
         <img src="img/with-alex-bec.jpg" alt="with Alex Jae and Bec Charlwood banner.">
-<!--        <input type="text" id="search" onkeyup="myFunction()" placeholder="Search">-->
-            
-<!--
-        <div class="controls">
-            <div class="checkbox-group">
-                <div class="checkbox">
-                    <label for="filter" class="checkbox-label">Recommended?</label>
-                    <input type="checkbox" class="filtercheck" id="rec" />
-                </div>
-
-                <div class="checkbox">
-                    <label for="filter" class="checkbox-label">Horny Movie?</label>
-                    <input type="checkbox" class="filtercheck" id="horn" />
-                </div>
-
-                <div class="checkbox">
-                    <label for="filter" class="checkbox-label">Date Movie?</label>
-                    <input type="checkbox" class="filtercheck" id="date" />
-                </div>
-                <div class="checkbox">
-                    <label for="filter" class="checkbox-label">Exclude Patreon?</label>
-                    <input type="checkbox" class="filtercheck" id="main" />
-                </div>
-            </div>
-        </div>
--->
         
-<!--
-            <div class="checkbox-group">
-                <div class="checkbox">
-                    <p class="checkbox-label" id="rec">Recommended?</p>
-                </div>
-                <div class="checkbox">
-                    <p class="checkbox-label" id="horn">Horny Movie?</p>
-                </div>
-                <div class="checkbox">
-                    <p class="checkbox-label" id="date">Date Movie?</p>
-                </div>
-                <div class="checkbox">
-                    <p class="checkbox-label" id="pat">Patreon?</p>
-                </div>
-                 </div>
--->
-        <input id="filter" type="text">
-        <select id="checkbox-group" multiple="multiple">
+        <div id="controls">
+        <input id="filter" placeholder="Search by name, ep #, guest..." type="text">
+        <select id="checkbox-group" multiple="multiple" size="5">
         <option value="mix">Show All</option>
-            <option value="rec">Rec</option>
-    <option value="horn">Horn</option>
-    <option value="date">Date</option>
-    <option value="pat">Patreon</option>
-</select>
+            <option value="rec">Recommended?</option>
+    <option value="horn">Horny Movie?</option>
+    <option value="date">Date Movie?</option>
+    <option value="main">Exclude Patreon?</option>
+</select></div>
+        
         
         <div class="container">
             <div class="mix rec horn date pat">
@@ -84,11 +44,11 @@
                 </div>
             </div>
             <div class="mix rec date main">
-                <h2><a href="https://davidlang.design/" target="_blank">2 Example movie title</a></h2>
+                <h2><a href="https://www.imdb.com/title/tt7991608/" target="_blank">153. Red Notice</a></h2>
                 <div class="ratings">
                     <h6>Alex: <span class="blu">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h6>
                     <h6>Bec: <span class="blu">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h6>
-                    <h6>Guest 1: <span class="blu">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h6>
+                    <h6>Claire Parker: <span class="blu">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h6>
                 </div>
                 <div class="ratings">
                     <h6>Horny Movie? <span class="blu">Nope!</span></h6>
