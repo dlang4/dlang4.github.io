@@ -36,16 +36,13 @@ select{
         font-family: 'Teko', sans-serif;
     text-transform: uppercase;
 font-size: 18pt;
-/*
-    width: 180px;
-    height: 180px;
-*/
     overflow-y: auto;
     background: none;
     border-style: none;
+    margin-left: 40px;
+    text-align: center;
+    margin: 0;
 }
-
-
 
 .checkbox-group{
             display: flex;
@@ -145,5 +142,8 @@ a:link, a:visited {
 
 @media (min-width: 1px) and (max-width: 1440px) {
 
+    option{
+    display: inline-block;
+}
 
 }
