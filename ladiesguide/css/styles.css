@@ -54,7 +54,7 @@ box-shadow: 0px 0px 10px rgb(0 0 0 / 0);
 }
 
 .mix:hover{
-    box-shadow: 5px 5px 10px rgb(0 0 0 / 0.7);
+    box-shadow: -5px 5px 10px rgb(0 0 0 / 0.7);
     transition: all 0.5s;
 }
 
@@ -62,6 +62,10 @@ box-shadow: 0px 0px 10px rgb(0 0 0 / 0);
          border-color: #CF1C4F;
     margin-left: auto; 
 margin-right: 0;
+}
+
+.pat:hover{
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 0.7);
 }
 
 h2 {

@@ -60,7 +60,7 @@
                 </div>
                  </div>
 -->
-        
+        <input id="filter" type="text">
         <select id="checkbox-group" multiple="multiple">
         <option value="mix">Show All</option>
             <option value="rec">Rec</option>
@@ -70,7 +70,7 @@
 </select>
         
         <div class="container">
-            <div class="mix rec horn date pat">
+            <div style="cursor: pointer;" onclick="window.open('https://davidlang.design/', '_blank');" class="mix rec horn date pat">
                 <h2>1 Example movie title</h2>
                 <div class="ratings">
                     <h6>Alex: <span class="red">&#9733;&#9733;&#9733;&#9733;&#9733;</span></h6>
@@ -178,7 +178,31 @@ $('#checkbox-group').on('change', function () {
     var classNames = '.' + number.join('.');
     $(".mix").hide().filter(classNames).show();
 });
-    
+  
+
+    $("#filter").keyup(function() {
+
+      // Retrieve the input field text and reset the count to zero
+      var filter = $(this).val(),
+        count = 0;
+
+      // Loop through the comment list
+      $('.mix').each(function() {
+
+
+        // If the list item does not contain the text phrase fade it out
+        if ($(this).text().search(new RegExp(filter, "i")) < 0) {
+          $(this).hide();
+
+          // Show the list item if the phrase matches and increase the count by 1
+        } else {
+          $(this).show();
+          count++;
+        }
+
+      });
+
+    });
     
     </script>
 
