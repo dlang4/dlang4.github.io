@@ -96,52 +96,21 @@ h6{
 }
 
 
-
-
-
-h1 {
-    font-weight: 800;
-    margin-bottom: 10px !important;
-    font-size: 3em !important;
-    transition: all 0.5s;
-}
-
-ul {
-    list-style: none;
-    padding: 0px;
-    margin-top: 0px;
-}
-
-li {
-    margin: 4px 8px;
-    display: inline-block;
-}
-
 a:link, a:visited {
+    color: black;
     text-decoration: none;
-    color: #e6e6e6;
-    font-size: 1.5em;
-    transition: color 4s;
+        transition: color .5s;
+
 }
 
-a:hover {
-    transition: color 0.5s;
+.mix a:hover{
+    color: #092882;
+    transition: color .5s;
+
 }
 
-#behance:hover {
-    color: #0057ff;
-}
-
-#linkedin:hover {
-    color: #283e4a;
-}
-
-#unsplash:hover {
-    color: #346100;
-}
-
-#resume:hover {
-    color: #614e6e;
+.pat a:hover{
+    color: #CF1C4F;
 }
 
 
