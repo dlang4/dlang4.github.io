@@ -130,7 +130,6 @@
         </div>
     </div>
 
-<!--    <script src="js/mixitup.js"></script>-->
 <!--    <script src="js/scripts.js"></script>-->
 <script>
 $('#checkbox-group').on('change', function () {
@@ -139,30 +138,22 @@ $('#checkbox-group').on('change', function () {
     $(".mix").hide().filter(classNames).show();
 });
   
-
-    $("#filter").keyup(function() {
-
-      // Retrieve the input field text and reset the count to zero
-      var filter = $(this).val(),
+$("#filter").keyup(function() {
+    // Retrieve the input field text and reset the count to zero
+    var filter = $(this).val(),
         count = 0;
-
-      // Loop through the comment list
-      $('.mix').each(function() {
-
-
+    // Loop through the comment list
+    $('.mix').each(function() {
         // If the list item does not contain the text phrase fade it out
         if ($(this).text().search(new RegExp(filter, "i")) < 0) {
-          $(this).hide();
-
-          // Show the list item if the phrase matches and increase the count by 1
+            $(this).hide();
+            // Show the list item if the phrase matches and increase the count by 1
         } else {
-          $(this).show();
-          count++;
+            $(this).show();
+            count++;
         }
-
-      });
-
     });
+});
     
     </script>
 
