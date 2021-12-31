@@ -16,6 +16,11 @@ body {
     background-color: rgba(244,237,228,0.7);
     width: 70%;
     margin: auto;
+    border-style: dashed;
+    border: 20px dashed rgba(9,40,130,0.5);
+    border-top-style: none;
+    border-bottom-style: none;
+    outline: 10px solid rgba(244,237,228,0.7);
 }
 
 img {
