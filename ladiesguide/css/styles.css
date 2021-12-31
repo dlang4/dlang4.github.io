@@ -180,10 +180,10 @@ a:link, a:visited {
 .pat a:hover{
     color: #CF1C4F;
 }
-
+#note{
+        padding-top: 15px;
+}
 #footer{
-        padding-bottom: 20px;
-    padding-top: 30px;
     transform: rotate(180deg);
 }
 
