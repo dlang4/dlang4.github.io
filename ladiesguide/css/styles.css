@@ -134,7 +134,6 @@ margin-right: 0;
 
 .pat:hover{
     box-shadow: 4px 4px 0px #5E0D24;
-/*    box-shadow: 10px 10px 10px rgb(0 0 0 / 0.3);*/
 }
 
 h2 {
@@ -185,7 +184,7 @@ a:link, a:visited {
 .pat a:hover{
     color: #CF1C4F;
 }
-#note{
+.link{
         padding-top: 15px;
 }
 #footer{
