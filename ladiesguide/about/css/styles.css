@@ -14,5 +14,13 @@ p{
 }
     
 @media (min-width: 1px) and (max-width: 1440px) {
-
+p{
+    width: 90%;
+    text-transform: none;
+    font-size: 14pt;
+    padding-bottom: 10px;
+}
+.link{
+    padding: 10px 0;
+}
 }
