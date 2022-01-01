@@ -6,31 +6,28 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>LGTDS</title>
     <link href="css/styles.css" rel="stylesheet">
-<!--    <script src='js/jquery-3.6.0.min.js'></script>-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
-<body>
 
+<body>
     <div id="tray">
         <img src="img/ladies-guide-header.jpg" alt="The Ladies Guide to Dude Cinema logotype.">
         <img src="img/with-alex-bec.jpg" alt="with Alex Jae and Bec Charlwood banner.">
-        
         <div>
             <h6 id="intro">Kumite! Find an episode by using the search below, or using the filtering categories.</h6>
             <input id="filter" placeholder="Search by movie, ep #, guest..." type="text">
-            </div>
+        </div>
         <select id="checkbox-group" multiple="multiple" size="5">
-        <option id="showall" value="mix">Show All</option>
+            <option id="showall" value="mix">Show All</option>
             <option value="rec">Recommended?</option>
-    <option value="horn">Horny Movie?</option>
-    <option value="date">Date Movie?</option>
-    <option value="main">Exclude Patreon?</option>
-</select>
-
+            <option value="horn">Horny Movie?</option>
+            <option value="date">Date Movie?</option>
+            <option value="main">Exclude Patreon?</option>
+        </select>
         <p id="desktop">[On desktop, use CTRL/CMD + Left Click to select multiple categories]</p>
 
-        
         <div class="container">
+            <!--PATREON: COPY FROM HERE-->
             <div class="mix rec horn date pat">
                 <h2><a href="https://davidlang.design/" target="_blank">1 Example movie title</a></h2>
                 <div class="ratings">
@@ -44,6 +41,8 @@
                     <h6>Date Movie? <span class="red">Yep!</span></h6>
                 </div>
             </div>
+            <!--PATREON: TO HERE-->
+            <!--MAIN: COPY FROM HERE-->
             <div class="mix rec date main">
                 <h2><a href="https://www.imdb.com/title/tt7991608/" target="_blank">153. Red Notice</a></h2>
                 <div class="ratings">
@@ -56,7 +55,7 @@
                     <h6>Date Movie? <span class="blu">Yep!</span></h6>
                 </div>
             </div>
-
+            <!--MAIN: TO HERE-->
             <div class="mix rec main">
                 <h2>3 Example movie title</h2>
                 <div class="ratings">
@@ -129,36 +128,30 @@
                 </div>
             </div>
         </div>
-                <p class="link"><a href="about/">[More info on The Ladies Guide to Dude Cinema podcast and this website]</a></p>
-
+        
+        <p class="link"><a href="about/">[More info on The Ladies Guide to Dude Cinema podcast and this website]</a></p>
         <img id="footer" src="img/badass-footer.jpg" alt="Alex Jae and Bec Charlwood newsprint art.">
     </div>
-
-<!--    <script src="js/scripts.js"></script>-->
-<script>
-$('#checkbox-group').on('change', function () {
-    var number = $(this).val();
-    var classNames = '.' + number.join('.');
-    $(".mix").hide().filter(classNames).show();
-});
-  
-$("#filter").keyup(function() {
-    // Retrieve the input field text and reset the count to zero
-    var filter = $(this).val(),
-        count = 0;
-    // Loop through the comment list
-    $('.mix').each(function() {
-        // If the list item does not contain the text phrase fade it out
-        if ($(this).text().search(new RegExp(filter, "i")) < 0) {
-            $(this).hide();
-            // Show the list item if the phrase matches and increase the count by 1
-        } else {
-            $(this).show();
-            count++;
-        }
-    });
-});
     
+    <script>
+        $('#checkbox-group').on('change', function() {
+            var number = $(this).val();
+            var classNames = '.' + number.join('.');
+            $(".mix").hide().filter(classNames).show();
+        });
+        $("#filter").keyup(function() {
+            var filter = $(this).val(),
+                count = 0;
+            $('.mix').each(function() {
+                if ($(this).text().search(new RegExp(filter, "i")) < 0) {
+                    $(this).hide();
+                } else {
+                    $(this).show();
+                    count++;
+                }
+            });
+        });
     </script>
+</body>
 
-</body></html>
+</html>
