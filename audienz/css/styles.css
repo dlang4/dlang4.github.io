@@ -1,0 +1,42 @@
+img {
+    width: 40%;
+    padding: 15px 0px;
+    transition: all 0.5s;
+}
+
+h2 {
+    text-align: center;
+}
+
+#one {
+    background-image: linear-gradient(to right, #010101, midnightblue 50%, #010101);
+}
+
+#two {
+    background-image: linear-gradient(to right, #010101, darkgreen 50%, #010101);
+}
+
+#three {
+    background-image: linear-gradient(to right, #010101, dimgray 50%, #010101);
+}
+
+#four {
+    background-image: linear-gradient(to right, #010101, slategray 50%, #010101);
+}
+
+#five {
+    background-image: linear-gradient(to right, #010101, maroon 50%, #010101);
+}
+
+#six {
+    background-image: linear-gradient(to right, #010101, darkslategray 50%, #010101);
+}
+
+@media (min-width: 1px) and (max-width: 900px) {
+
+    img {
+        width: 80%;
+        transition: all 0.5s;
+    }
+
+}
