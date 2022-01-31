@@ -209,19 +209,9 @@ p a:hover {
     }
 
     .mix {
-        width: 100%;
+        width: 95%;
         border-width: 2px;
-        box-shadow: 0px 0px 10px rgb(0 0 0 / 0);
         transition: all 0.5s;
-    }
-
-    .mix:hover {
-        box-shadow: 0px 4px 0px #020A21;
-        transition: all 0.5s;
-    }
-
-    .pat:hover {
-        box-shadow: 0px 4px 0px #5E0D24;
     }
 
     h2 {
@@ -275,6 +265,21 @@ p a:hover {
         display: none;
     }
 
+    .mix {
+        width: 100%;
+        box-shadow: 0px 0px 10px rgb(0 0 0 / 0);
+        transition: all 0.5s;
+    }
+    
+    .mix:hover {
+        box-shadow: 0px 4px 0px #020A21;
+        transition: all 0.5s;
+    }
+    
+    .pat:hover {
+        box-shadow: 0px 4px 0px #5E0D24;
+    }
+    
     .ratings {
         flex-direction: column;
     }
