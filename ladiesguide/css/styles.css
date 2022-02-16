@@ -109,13 +109,13 @@ p {
     border-radius: 30px;
     margin-bottom: 15px;
     opacity: 100%;
-    box-shadow: 0px 0px 10px rgb(0 0 0 / 0);
+    box-shadow: 0px 0px 0px rgb(0 0 0 / 0);
     transition: all 0.5s;
     display: block;
 }
 
 .mix:hover {
-    box-shadow: -4px 4px 0px #020A21;
+    box-shadow: -4px 4px 6px #020A21;
     transition: all 0.5s;
 }
 
@@ -126,7 +126,7 @@ p {
 }
 
 .pat:hover {
-    box-shadow: 4px 4px 0px #5E0D24;
+    box-shadow: 4px 4px 6px #5E0D24;
 }
 
 h2 {
@@ -267,17 +267,17 @@ p a:hover {
 
     .mix {
         width: 100%;
-        box-shadow: 0px 0px 10px rgb(0 0 0 / 0);
+        box-shadow: 0px 0px 0px rgb(0 0 0 / 0);
         transition: all 0.5s;
     }
     
     .mix:hover {
-        box-shadow: 0px 4px 0px #020A21;
+        box-shadow: 0px 4px 6px #020A21;
         transition: all 0.5s;
     }
     
     .pat:hover {
-        box-shadow: 0px 4px 0px #5E0D24;
+        box-shadow: 0px 4px 6px #5E0D24;
     }
     
     .ratings {
