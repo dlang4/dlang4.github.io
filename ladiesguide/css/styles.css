@@ -131,8 +131,9 @@ p {
 
 h2 {
     font-size: 30pt;
+    line-height: 36pt;
     margin: auto;
-    padding-top: 8px;
+    padding-top: 10px;
 }
 
 .ratings {
@@ -210,13 +211,15 @@ p a:hover {
 
     .mix {
         width: 95%;
+        border-radius: 20px;
         border-width: 2px;
         transition: all 0.5s;
     }
 
     h2 {
         font-size: 20pt;
-        padding-top: 6px;
+        line-height: 22pt;
+        padding-top: 8px;
     }
 
     .link {
