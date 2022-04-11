@@ -1,6 +1,6 @@
 BEGIN:VCARD
 VERSION:3.0
-REV:2022-04-11T17:23:25Z
+REV:2022-04-11T18:32:58Z
 N;CHARSET=utf-8:Gabriel;Jim;;;
 FN;CHARSET=utf-8:Jim Gabriel
 EMAIL;INTERNET:jimgabriel@groundwrks.com
@@ -13,5 +13,5 @@ TITLE;CHARSET=utf-8:
 URL;WORK;:https://jimgabrielgw.carrd.co/
 TEL;WORK;:4256104935
 TEL;CELL;WORK;:
-ADR;WORK;POSTAL;CHARSET=utf-8:;;;;;;Italy
+ADR;WORK;POSTAL;CHARSET=utf-8:;;;;;;United States
 END:VCARD
