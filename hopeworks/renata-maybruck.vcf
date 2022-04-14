@@ -1,0 +1,17 @@
+BEGIN:VCARD
+VERSION:3.0
+REV:2022-04-14T19:03:57Z
+N;CHARSET=utf-8:Maybruck;Renata;;;
+FN;CHARSET=utf-8:Renata Maybruck
+EMAIL;INTERNET:renatamaybruck@hopewrks.org
+URL;Home;:
+TEL;CELL;HOME;:
+TEL;HOME;:
+TEL;CELL;PERF;:
+ORG;CHARSET=utf-8:HopeWorks Social Enterprises;WORK;
+TITLE;CHARSET=utf-8:Chief Operating Officer
+URL;WORK;:https://www.hopewrks.org/
+TEL;WORK;:4256104931
+TEL;CELL;WORK;:
+ADR;WORK;POSTAL;CHARSET=utf-8:;;;;;;United States
+END:VCARD
