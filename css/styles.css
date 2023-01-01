@@ -4,7 +4,7 @@
     background: #614e6e;
 }
 @keyframes fadeIn{
-    from {opacity: 0;transform: translateX(-50%) translateY(-40%)}
+    from {opacity: 0;transform: translateX(-50%) translateY(-60%)}
     to {opacity: 1;transform: translateX(-50%) translateY(-50%)}
 }
 body {
@@ -179,6 +179,7 @@ h2{
     transform: translateX(-6.5%);
 }
     h2{
+        line-height: 1.1em;
         padding-bottom: 15px;
         transition: all 0.5s;
     }
