@@ -14,7 +14,7 @@ body {
     background-position: center;
     height: 100vh;
     margin: 0;
-    overflow: hidden;
+/*    overflow: hidden;*/
 }
 
 #purple{
@@ -25,17 +25,18 @@ body {
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     padding: 0 25px;
+    margin: 0;
     border-radius: 25px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.35);
     animation: fadeIn ease 2s;
     animation-fill-mode: forwards;
+    font-family: 'Raleway', sans-serif;
     transition: all 0.5s;
 }
 
 
 h1{
     font-size: 4em;
-    font-family: raleway;
     font-weight: 800;
     color: #e6e6e6;
     text-shadow: 0px 5px #614e6e;
@@ -60,7 +61,6 @@ a:link, a:visited {
     font-size: 1.75em;
     transition: all 0.5s;
     background: #e6e6e6;
-    font-family: raleway;
     font-weight: 400;
     padding: 15px 100px;
     margin: 20px 25px;
@@ -116,7 +116,7 @@ a:hover {
 
 h2{
     font-size: 1.25em;
-    font-family: barlow;
+    font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: 200;
     color: #e6e6e6;
     text-align: right;
@@ -126,12 +126,20 @@ h2{
 @media (min-width: 1px) and (max-width: 1800px) {
 
     #purple {
-        width: 70%;
+        width: 65%;
         transition: all 0.5s;
     }
     
 }
 @media (min-width: 1px) and (max-width: 1400px) {
+
+    #purple {
+        width: 80%;
+        transition: all 0.5s;
+    }
+    
+}
+@media (min-width: 1px) and (max-width: 1150px) {
 
     #purple {
         width: 50%;
