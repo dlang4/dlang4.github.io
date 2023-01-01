@@ -4,8 +4,8 @@
     background: #614e6e;
 }
 @keyframes fadeIn{
-    from {opacity: 0;transform: translateX(-50%) translateY(-60%)}
-    to {opacity: 1;transform: translateX(-50%) translateY(-50%)}
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 body {
     background: linear-gradient(0deg, rgba(230, 230, 230, 0.75), rgba(230, 230, 230, 0.75)), url("/img/IMG_4046-web.png") fixed;
@@ -50,6 +50,7 @@ h1{
     flex-direction: row-reverse;
     width: 90%;
     margin: 0 auto;
+    transition: all 0.5s;
 }
 ul{
     list-style: none;
@@ -59,7 +60,6 @@ ul{
 a:link, a:visited {
     text-decoration: none;
     font-size: 1.75em;
-    transition: all 0.5s;
     background: #e6e6e6;
     font-weight: 400;
     padding: 15px 100px;
@@ -69,6 +69,7 @@ a:link, a:visited {
         display: block;
     text-align: center;
     box-shadow: 0px 4px rgba(0, 0, 0, 0.35);
+        transition: all 0.5s;
 }
 a:hover {
     transition: all 0.5s;
@@ -151,14 +152,20 @@ h2{
     }
     #pad{
         flex-direction: column;
+        transition: all 0.5s;
     }
     a:link, a:visited {
-    margin: 20px 0px;
+            font-size: 1.5em;
+    padding: 5px 100px;
+    margin: 13px 0px;
+            border-radius: 10px;
+            box-shadow: 0px 3px rgba(0, 0, 0, 0.35);
     transform: translateX(-6.5%);
+        transition: all 0.5s;
 }
     h2{
         text-align: justify;
-        padding: 30px 0 20px 0;
+        padding: 20px 0 15px 0;
     }
     
 }
@@ -175,7 +182,6 @@ h2{
         transition: all 0.5s;
     }
     a:link, a:visited {
-    margin: 20px 0px;
     transform: translateX(-6.5%);
 }
     h2{
