@@ -3,13 +3,19 @@
 ::selection {
     background: #614e6e;
 }
-@keyframes fadeIn{
-    from {opacity: 0; transform: translateX(-50%) translateY(-60%);}
-    to {opacity: 1; transform: translateX(-50%) translateY(-50%);}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50%) translateY(-60%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(-50%) translateY(-50%);
+    }
 }
-html{
-    height: 100vh;
-}
+
 body {
     background: linear-gradient(0deg, rgba(230, 230, 230, 0.75), rgba(230, 230, 230, 0.75)), url("/img/IMG_4046-web.png") fixed;
     background-repeat: no-repeat;
@@ -19,7 +25,7 @@ body {
     margin: 0;
 }
 
-#purple{
+#purple {
     background-image: linear-gradient(90deg, #614e6e, #846A95);
     width: 50%;
     position: absolute;
@@ -31,13 +37,13 @@ body {
     border-radius: 25px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.35);
     animation: fadeIn ease 2s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
     font-family: 'Raleway', sans-serif;
     transition: all 0.5s;
 }
 
 
-h1{
+h1 {
     font-size: 4em;
     font-weight: 800;
     color: #e6e6e6;
@@ -45,7 +51,8 @@ h1{
     text-align: center;
     transition: all 0.5s;
 }
-#pad{
+
+#pad {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,12 +61,15 @@ h1{
     margin: 0 auto;
     transition: all 0.5s;
 }
-ul{
+
+ul {
     list-style: none;
     margin-bottom: 50px;
     margin-top: -25px;
 }
-a:link, a:visited {
+
+a:link,
+a:visited {
     text-decoration: none;
     font-size: 1.75em;
     background: #e6e6e6;
@@ -68,11 +78,12 @@ a:link, a:visited {
     margin: 20px 25px;
     white-space: nowrap;
     border-radius: 15px;
-        display: block;
+    display: block;
     text-align: center;
     box-shadow: 0px 4px rgba(0, 0, 0, 0.35);
-        transition: all 0.5s;
+    transition: all 0.5s;
 }
+
 a:hover {
     transition: all 0.5s;
 }
@@ -80,6 +91,7 @@ a:hover {
 #behance {
     color: #0057ff;
 }
+
 #behance:hover {
     color: #e6e6e6;
     background: #0057ff;
@@ -88,6 +100,7 @@ a:hover {
 #linkedin {
     color: #283e4a;
 }
+
 #linkedin:hover {
     color: #e6e6e6;
     background: #283e4a;
@@ -96,6 +109,7 @@ a:hover {
 #resume {
     color: #614e6e;
 }
+
 #resume:hover {
     color: #e6e6e6;
     background: #614e6e;
@@ -104,6 +118,7 @@ a:hover {
 #unsplash {
     color: black;
 }
+
 #unsplash:hover {
     color: #e6e6e6;
     background: black;
@@ -112,12 +127,13 @@ a:hover {
 #otter {
     color: #a10022;
 }
+
 #otter:hover {
     color: #e6e6e6;
     background: #a10022;
 }
 
-h2{
+h2 {
     font-size: 1.25em;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: 200;
@@ -133,70 +149,84 @@ h2{
         width: 65%;
         transition: all 0.5s;
     }
-    
+
 }
+
 @media (min-width: 1px) and (max-width: 1400px) {
 
     #purple {
         width: 80%;
         transition: all 0.5s;
     }
-    a:link, a:visited {
+
+    a:link,
+    a:visited {
         font-size: 1.5em;
         padding: 10px 100px;
-    margin: 15px 25px;
+        margin: 15px 25px;
         transition: all 0.5s;
+    }
 }
-}
+
 @media (min-width: 1px) and (max-width: 1175px) {
 
     #purple {
         width: 50%;
         transition: all 0.5s;
     }
-    h1{
+
+    h1 {
         font-size: 3em;
         transition: all 0.5s;
     }
-    #pad{
+
+    #pad {
         flex-direction: column;
         transition: all 0.5s;
     }
-    a:link, a:visited {
-    padding: 5px 75px;
-    margin: 13px 0px;
-            border-radius: 10px;
-            box-shadow: 0px 3px rgba(0, 0, 0, 0.35);
-    transform: translateX(-8%);
+
+    a:link,
+    a:visited {
+        padding: 5px 75px;
+        margin: 13px 0px;
+        border-radius: 10px;
+        box-shadow: 0px 3px rgba(0, 0, 0, 0.35);
+        transform: translateX(-8%);
         transition: all 0.5s;
-}
-    h2{
+    }
+
+    h2 {
         text-align: justify;
         padding: 20px 0 15px 0;
         transition: all 0.5s;
     }
-    
+
 }
+
 @media (min-width: 1px) and (max-width: 1000px) {
 
     #purple {
         width: 80%;
         transition: all 0.5s;
     }
-    h1{
+
+    h1 {
         font-size: 2em;
         text-shadow: 0px 3px #614e6e;
         padding-bottom: 8px;
         transition: all 0.5s;
     }
-    a:link, a:visited {
+
+    a:link,
+    a:visited {
         transition: all 0.5s;
-}
-    h2{
-/*        font-size: 1.2em;*/
+    }
+
+    h2 {
+        /*        font-size: 1.2em;*/
         line-height: 1.15em;
         padding-bottom: 15px;
         transition: all 0.5s;
     }
-    
+
 }
