@@ -4,8 +4,8 @@
     background: #614e6e;
 }
 @keyframes fadeIn{
-    from {opacity: 0;}
-    to {opacity: 1;}
+    from {opacity: 0; transform: translateX(-50%) translateY(-60%);}
+    to {opacity: 1; transform: translateX(-50%) translateY(-50%);}
 }
 body {
     background: linear-gradient(0deg, rgba(230, 230, 230, 0.75), rgba(230, 230, 230, 0.75)), url("/img/IMG_4046-web.png") fixed;
@@ -14,7 +14,6 @@ body {
     background-position: center;
     height: 100vh;
     margin: 0;
-    overflow: auto;
 }
 
 #purple{
@@ -146,7 +145,7 @@ h2{
         transition: all 0.5s;
 }
 }
-@media (min-width: 1px) and (max-width: 1150px) {
+@media (min-width: 1px) and (max-width: 1175px) {
 
     #purple {
         width: 50%;
@@ -161,7 +160,7 @@ h2{
         transition: all 0.5s;
     }
     a:link, a:visited {
-    padding: 5px 90px;
+    padding: 5px 75px;
     margin: 13px 0px;
             border-radius: 10px;
             box-shadow: 0px 3px rgba(0, 0, 0, 0.35);
@@ -192,8 +191,8 @@ h2{
         transition: all 0.5s;
 }
     h2{
-        font-size: 1.2em;
-        line-height: 1.1em;
+/*        font-size: 1.2em;*/
+        line-height: 1.15em;
         padding-bottom: 15px;
         transition: all 0.5s;
     }
