@@ -246,6 +246,7 @@ h2 {
 
     #purple {
         top: 0%;
+        border-radius: 0px;
         animation: fadeInMob ease 2s;
         animation-fill-mode: forwards;
         transition: all 0.5s;
