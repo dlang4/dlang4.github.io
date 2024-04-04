@@ -142,6 +142,7 @@ h2 {
     font-size: 1.25em;
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: 200;
+    line-height: 1.5em;
     color: #e6e6e6;
     text-align: right;
     margin-top: -50px;
@@ -201,6 +202,7 @@ h2 {
     }
 
     h2 {
+        line-height: 1.15em;
         text-align: justify;
         padding: 20px 0 15px 0;
         transition: all 0.5s;
@@ -228,7 +230,6 @@ h2 {
     }
 
     h2 {
-        line-height: 1.15em;
         padding-bottom: 15px;
         transition: all 0.5s;
     }
