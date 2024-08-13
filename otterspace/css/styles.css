@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+@font-face {
+    font-family: otterSpace;
+    src: url(/otterspace/fonts/OtterSpace.woff2);
+}
+
+::selection {
+    background: black;
+}
+
+@keyframes fadeOtt {
+    from {
+        opacity: 0%;
+        transform: translateY(9%);
+    }
+
+    to {
+        opacity: 15%;
+        transform: translateY(-11%);
+    }
+}
+
+@keyframes letters {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+html,
+body,
+#lock {
+    overflow: hidden;
+}
+
+body {
+    background: linear-gradient(0deg, rgba(230, 230, 230, 0), rgba(230, 230, 230, 0)), url(/otterspace/img/space.jpg) fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.otter {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    animation: fadeOtt ease 8s;
+    animation-fill-mode: forwards;
+}
+
+#content {
+    display: block;
+    width: 96%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    transform: translateX(-50%) translateY(-50%);
+    transition: all 0.5s;
+}
+
+h2,
+h1,
+h4 {
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+h2,
+h1 {
+    font-family: 'otterSpace', cursive;
+}
+
+h2 {
+    font-size: 3em;
+    letter-spacing: -3px;
+    transition: all 0.5s;
+}
+
+h1 {
+    font-size: 9em;
+    color: white;
+    letter-spacing: -10px;
+    margin: 30px 0px 90px 0px;
+    transition: all 0.5s;
+}
+
+#one,
+#two,
+#three,
+#four,
+#five,
+#six,
+#seven,
+#eight,
+#nine,
+#ten {
+    animation: letters ease 0.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+#one {
+    animation-delay: 4s;
+}
+
+#two {
+    animation-delay: 1s;
+}
+
+#three {
+    animation-delay: 5s;
+}
+
+#four {
+    animation-delay: 2s;
+}
+
+#five {
+    animation-delay: 3s;
+}
+
+#six {
+    animation-delay: 1.5s;
+}
+
+#seven {
+    animation-delay: 3.5s;
+}
+
+#eight {
+    animation-delay: 0.5s;
+}
+
+#nine {
+    animation-delay: 4.5s;
+}
+
+#ten {
+    animation-delay: 2.5s;
+}
+
+h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2.5em;
+    font-weight: 300;
+    letter-spacing: 2px;
+    opacity: 0;
+    animation: letters ease 0.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 5.5s;
+    transition: all 0.5s;
+}
+
+ul {
+    list-style: none;
+    position: relative;
+    display: block;
+    text-align: center;
+    text-align: center;
+    list-style-position: inside;
+    margin-top: 50px;
+    padding-left: 0px;
+    opacity: 0;
+    animation: letters ease 0.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 7.5s;
+    transition: all 0.5s;
+}
+
+li {
+    width: auto;
+    display: inline;
+}
+
+a:link,
+a:visited {
+    font-family: 'otterSpace', cursive;
+    text-decoration: none;
+    font-size: 1.75em;
+    letter-spacing: -2px;
+    color: white;
+    padding: 10px 100px 12px 100px;
+    margin: 20px 25px;
+    white-space: nowrap;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s;
+}
+
+a:hover {
+    box-shadow: 0px 4px rgba(255, 255, 255, 0.5);
+    transition: all 0.5s;
+}
+
+@media (min-width: 1px) and (max-width: 1640px) {
+    h2 {
+        font-size: 2.5em;
+        transition: all 0.5s;
+    }
+
+    h1 {
+        font-size: 7em;
+        transition: all 0.5s;
+    }
+
+    h4 {
+        font-size: 2em;
+        transition: all 0.5s;
+    }
+
+    a:link,
+    a:visited {
+        padding: 10px 50px 12px 50px;
+        margin: 20px 15px;
+        transition: all 0.5s;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 1225px) {
+
+    h2 {
+        margin-bottom: -20px;
+        transition: all 0.5s;
+    }
+
+    h1 {
+
+        margin: 40px 0px;
+        transition: all 0.5s;
+    }
+
+    h4 {
+        font-size: 2em;
+        width: 50%;
+        margin: 0 auto;
+        transition: all 0.5s;
+    }
+
+    li {
+        margin: 40px 0px;
+        display: block;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 600px) {
+    h2 {
+        font-size: 2em;
+        transition: all 0.5s;
+    }
+
+    h1 {
+        font-size: 5em;
+        margin-left: -8px;
+        transition: all 0.5s;
+    }
+
+    h4 {
+        font-size: 1.75em;
+        width: 80%;
+        transition: all 0.5s;
+    }
+
+    li {
+        margin: 60px 0px;
+        display: block;
+    }
+
+    a:link,
+    a:visited {
+        font-size: 1.5em;
+        padding: 16px 30px 20px 30px;
+        transition: all 0.5s;
+    }
+}
+
+@media screen and (orientation:landscape) and (min-width: 1px) and (max-width: 1260px) {
+
+    html,
+    body,
+    #lock {
+        overflow: visible;
+    }
+
+    .otter {
+        display: none;
+    }
+
+    #content {
+        top: 0%;
+        transform: translateX(-50%) translateY(0%);
+        transition: all 0.5s;
+    }
+
+    h2 {
+        margin-top: 30px;
+        transition: all 0.5s;
+    }
+}
