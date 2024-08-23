@@ -93,13 +93,13 @@ a:hover {
     transition: all 0.5s;
 }
 
-#behance {
-    color: #0057ff;
+#portfolio {
+    color: #4071B7;
 }
 
-#behance:hover {
+#portfolio:hover {
     color: #e6e6e6;
-    background: #0057ff;
+    background: #4071B7;
 }
 
 #linkedin {
